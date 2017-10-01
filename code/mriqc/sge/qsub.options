@@ -1,0 +1,5 @@
+-o /home/despoB/DistractWM/logs/mriqc/
+-e /home/despoB/DistractWM/logs/mriqc/
+-j yes
+-m as
+-wd /home/despoB/DistractWM/data/mriqc/

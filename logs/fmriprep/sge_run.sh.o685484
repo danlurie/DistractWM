@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/bin/fmriprep", line 11, in <module>
+    sys.exit(main())
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/fmriprep/cli/run.py", line 207, in main
+    create_workflow(opts)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/fmriprep/cli/run.py", line 214, in create_workflow
+    from ..workflows.base import init_fmriprep_wf
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/fmriprep/workflows/base.py", line 21, in <module>
+    from ..interfaces import (
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/fmriprep/interfaces/__init__.py", line 5, in <module>
+    from .bids import (
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/fmriprep/interfaces/bids.py", line 41, in <module>
+    from niworkflows.interfaces.base import SimpleInterface
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/interfaces/__init__.py", line 4, in <module>
+    from .masks import BETRPT as BET
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/interfaces/masks.py", line 14, in <module>
+    from niworkflows.common import report as nrc
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/common/report.py", line 14, in <module>
+    from nilearn.masking import apply_mask, unmask
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/nilearn/__init__.py", line 39, in <module>
+    _check_module_dependencies()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/nilearn/version.py", line 110, in _check_module_dependencies
+    install_info=module_metadata.get('install_info'))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/nilearn/version.py", line 60, in _import_module_with_version_check
+    module = __import__(module_name)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/__init__.py", line 134, in <module>
+    from .base import clone
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/base.py", line 12, in <module>
+    from .utils.fixes import signature
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/utils/__init__.py", line 17, in <module>
+    from ..externals.joblib import cpu_count
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py", line 121, in <module>
+    from .memory import Memory, MemorizedResult
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/externals/joblib/memory.py", line 37, in <module>
+    from . import numpy_pickle
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 29, in <module>
+    from .backports import make_memmap
+ModuleNotFoundError: No module named 'sklearn.externals.joblib.backports'
+MRIQC run attempt for 103 completed at Fri Sep 29 14:24:15 PDT 2017

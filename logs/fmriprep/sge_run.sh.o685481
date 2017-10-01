@@ -1,0 +1,19 @@
+usage: fmriprep [-h] [-v]
+                [--participant_label PARTICIPANT_LABEL [PARTICIPANT_LABEL ...]]
+                [-t TASK_ID] [--debug] [--nthreads NTHREADS]
+                [--omp-nthreads OMP_NTHREADS] [--mem_mb MEM_MB] [--low-mem]
+                [--use-plugin USE_PLUGIN] [--anat-only]
+                [--ignore-aroma-denoising-errors]
+                [--ignore {fieldmaps,slicetiming} [{fieldmaps,slicetiming} ...]]
+                [--longitudinal] [--bold2t1w-dof {6,9,12}]
+                [--output-space {T1w,template,fsnative,fsaverage,fsaverage6,fsaverage5} [{T1w,template,fsnative,fsaverage,fsaverage6,fsaverage5} ...]]
+                [--template {MNI152NLin2009cAsym}]
+                [--output-grid-reference OUTPUT_GRID_REFERENCE]
+                [--medial-surface-nan MEDIAL_SURFACE_NAN] [--use-aroma]
+                [--fmap-bspline] [--fmap-no-demean] [--use-syn-sdc]
+                [--force-syn] [--no-freesurfer] [--no-submm-recon]
+                [-w WORK_DIR] [--reports-only] [--run-uuid RUN_UUID]
+                [--write-graph]
+                bids_dir output_dir {participant}
+fmriprep: error: unrecognized arguments: --output_space T1w template
+MRIQC run attempt for 102 completed at Fri Sep 29 14:13:54 PDT 2017

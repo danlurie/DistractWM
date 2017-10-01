@@ -1,0 +1,22 @@
+2017-09-25 12:49:36,700 mriqc.cli:WARNING Anonymized quality metrics will be submitted to MRIQC's metrics repository. Use --no-sub to disable submission.
+2017-09-25 12:49:47,760 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:47,999 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:52,383 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:52,831 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:52,946 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:53,080 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:53,100 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:53,159 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:56,611 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:56,773 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:57,194 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:57,224 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:58,341 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:58,856 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:49:58,971 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:49:59,472 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:50:00,334 mriqc.report:WARNING Building bold report: no exclude index was found
+2017-09-25 12:50:00,676 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:50:04,923 interface:WARNING QC metrics failed to upload. Status 401: {"_error": {"code": 401, "message": "Please provide proper credentials"}, "_status": "ERR"}
+2017-09-25 12:50:05,159 mriqc.cli:WARNING Anonymized quality metrics have beeen submitted to MRIQC's metrics repository. Use --no-sub to disable submission.
+MRIQC run attempt for 103 completed at Mon Sep 25 12:50:05 PDT 2017

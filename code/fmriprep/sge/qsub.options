@@ -1,0 +1,5 @@
+-o /home/despoB/DistractWM/logs/fmriprep/
+-e /home/despoB/DistractWM/logs/fmriprep/
+-j yes
+-m as
+-wd /home/despoB/DistractWM/data/derivatives/fmriprep/
