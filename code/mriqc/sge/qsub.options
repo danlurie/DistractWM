@@ -2,4 +2,7 @@
 -e /home/despoB/DistractWM/logs/mriqc/
 -j yes
 -m as
--wd /home/despoB/DistractWM/data/mriqc/
+-l mem_free=1.6G
+-pe threaded 5
+-binding linear:5
+-wd /home/despoB/DistractWM/data/derivatives/mriqc/

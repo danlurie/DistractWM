@@ -1,0 +1,1820 @@
+170930-18:25:52,837 duecredit ERROR:
+	 Failed to import duecredit due to No module named 'duecredit'
+170930-18:25:53,52 cli INFO:
+	 
+Running fMRIPREP version 0.6.5:
+  * Participant list: ['113'].
+  * Run identifier: 20170930-182553_b34db8fa-d909-4a26-a661-781004a95555.
+
+170930-18:25:53,888 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-01_bold.nii.gz".
+170930-18:25:54,479 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-01_bold.nii.gz.
+170930-18:25:54,929 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-02_bold.nii.gz".
+170930-18:25:55,414 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-02_bold.nii.gz.
+170930-18:25:55,929 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-03_bold.nii.gz".
+170930-18:25:56,525 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-03_bold.nii.gz.
+170930-18:25:57,45 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-rest_bold.nii.gz".
+170930-18:25:57,488 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-rest_bold.nii.gz.
+170930-18:26:06,694 workflow INFO:
+	 Workflow fmriprep_wf settings: ['check', 'execution', 'logging']
+170930-18:26:07,0 workflow INFO:
+	 Running in parallel.
+170930-18:26:07,11 workflow INFO:
+	 Executing: validate ID: 0
+170930-18:26:07,13 workflow INFO:
+	 Executing node validate in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/validate
+170930-18:26:08,31 workflow INFO:
+	 [Job finished] jobname: validate jobid: 0
+170930-18:26:08,34 workflow INFO:
+	 Executing: validate ID: 18
+170930-18:26:08,36 workflow INFO:
+	 Executing node validate in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/validate
+170930-18:26:08,252 workflow INFO:
+	 [Job finished] jobname: validate jobid: 18
+170930-18:26:08,255 workflow INFO:
+	 Executing: validate ID: 36
+170930-18:26:08,257 workflow INFO:
+	 Executing node validate in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/validate
+170930-18:26:08,442 workflow INFO:
+	 [Job finished] jobname: validate jobid: 36
+170930-18:26:08,445 workflow INFO:
+	 Executing: validate ID: 54
+170930-18:26:08,446 workflow INFO:
+	 Executing node validate in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/validate
+170930-18:26:08,641 workflow INFO:
+	 [Job finished] jobname: validate jobid: 54
+170930-18:26:08,644 workflow INFO:
+	 Executing: about ID: 72
+170930-18:26:08,646 workflow INFO:
+	 Executing node about in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/about
+170930-18:26:08,681 workflow INFO:
+	 [Job finished] jobname: about jobid: 72
+170930-18:26:08,684 workflow INFO:
+	 Executing: bidssrc ID: 73
+170930-18:26:08,692 workflow INFO:
+	 Executing node bidssrc in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/bidssrc
+170930-18:26:08,718 interface WARNING:
+	 No 't2w' images found for sub-<undefined>
+170930-18:26:08,719 interface WARNING:
+	 No 'fmap' images found for sub-<undefined>
+170930-18:26:08,719 interface WARNING:
+	 No 'sbref' images found for sub-<undefined>
+170930-18:26:08,746 workflow INFO:
+	 [Job finished] jobname: bidssrc jobid: 73
+170930-18:26:08,755 workflow INFO:
+	 Executing: ds_validation_report ID: 17
+170930-18:26:08,759 workflow INFO:
+	 Executing node ds_validation_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_validation_report
+170930-18:26:08,816 workflow INFO:
+	 [Job finished] jobname: ds_validation_report jobid: 17
+170930-18:26:08,819 workflow INFO:
+	 Executing: ds_validation_report ID: 35
+170930-18:26:08,822 workflow INFO:
+	 Executing node ds_validation_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_validation_report
+170930-18:26:08,860 workflow INFO:
+	 [Job finished] jobname: ds_validation_report jobid: 35
+170930-18:26:08,863 workflow INFO:
+	 Executing: ds_validation_report ID: 53
+170930-18:26:08,866 workflow INFO:
+	 Executing node ds_validation_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_validation_report
+170930-18:26:08,907 workflow INFO:
+	 [Job finished] jobname: ds_validation_report jobid: 53
+170930-18:26:08,910 workflow INFO:
+	 Executing: ds_validation_report ID: 71
+170930-18:26:08,914 workflow INFO:
+	 Executing node ds_validation_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_validation_report
+170930-18:26:08,951 workflow INFO:
+	 [Job finished] jobname: ds_validation_report jobid: 71
+170930-18:26:08,954 workflow INFO:
+	 Executing: split ID: 29
+170930-18:26:08,963 workflow INFO:
+	 Executing node split in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_hmc_wf/split
+170930-18:26:08,958 workflow INFO:
+	 Executing: split ID: 65
+170930-18:26:08,975 workflow INFO:
+	 Executing node split in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_hmc_wf/split
+170930-18:26:09,8 workflow INFO:
+	 Running: fslsplit /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-03_bold.nii.gz -t
+170930-18:26:09,10 workflow INFO:
+	 Running: fslsplit /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-01_bold.nii.gz -t
+170930-18:26:10,987 workflow INFO:
+	 Executing: split ID: 47
+170930-18:26:12,529 workflow INFO:
+	 Executing: split ID: 11
+170930-18:26:12,534 workflow INFO:
+	 Executing node split in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_hmc_wf/split
+170930-18:26:12,547 workflow INFO:
+	 Executing: bids_info ID: 74
+170930-18:26:12,551 workflow INFO:
+	 Executing node split in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_hmc_wf/split
+170930-18:26:12,567 workflow INFO:
+	 Executing node bids_info in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/bids_info
+170930-18:26:12,607 workflow INFO:
+	 Running: fslsplit /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-rest_bold.nii.gz -t
+170930-18:26:12,610 workflow INFO:
+	 Running: fslsplit /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-02_bold.nii.gz -t
+170930-18:26:12,641 workflow INFO:
+	 [Job finished] jobname: bids_info jobid: 74
+170930-18:26:12,644 workflow INFO:
+	 Executing: ds_about_report ID: 77
+170930-18:26:12,679 workflow INFO:
+	 Executing node ds_about_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/ds_about_report
+170930-18:26:12,748 workflow INFO:
+	 [Job finished] jobname: ds_about_report jobid: 77
+170930-18:26:14,754 workflow INFO:
+	 Executing: summary ID: 75
+170930-18:26:16,816 workflow INFO:
+	 Executing node summary in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/summary
+170930-18:26:16,923 workflow INFO:
+	 [Job finished] jobname: summary jobid: 75
+170930-18:26:16,925 workflow INFO:
+	 Executing: t1_template_dimensions ID: 78
+170930-18:26:16,953 workflow INFO:
+	 Executing node t1_template_dimensions in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_template_dimensions
+170930-18:26:18,353 workflow INFO:
+	 [Job finished] jobname: t1_template_dimensions jobid: 78
+170930-18:26:18,358 workflow INFO:
+	 Executing: ds_summary_report ID: 76
+170930-18:26:18,361 workflow INFO:
+	 Executing node ds_summary_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/ds_summary_report
+170930-18:26:18,414 workflow INFO:
+	 [Job finished] jobname: ds_summary_report jobid: 76
+170930-18:26:18,416 workflow INFO:
+	 Executing: t1_conform ID: 79
+170930-18:26:18,443 workflow INFO:
+	 Executing node t1_conform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_conform
+170930-18:26:18,462 workflow INFO:
+	 Executing node _t1_conform0 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_conform/mapflow/_t1_conform0
+170930-18:26:18,647 workflow INFO:
+	 [Job finished] jobname: t1_conform jobid: 79
+170930-18:26:18,655 workflow INFO:
+	 Executing: t1_merge ID: 80
+170930-18:26:18,696 workflow INFO:
+	 Executing node t1_merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_merge
+170930-18:26:18,693 workflow INFO:
+	 Executing: ds_t1_conform_report ID: 240
+170930-18:26:18,742 workflow INFO:
+	 Executing node ds_t1_conform_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_reports_wf/ds_t1_conform_report
+170930-18:26:18,780 workflow INFO:
+	 Running: echo Only one time point!
+170930-18:26:18,866 workflow INFO:
+	 [Job finished] jobname: ds_t1_conform_report jobid: 240
+170930-18:26:19,70 workflow INFO:
+	 [Job finished] jobname: t1_merge jobid: 80
+170930-18:26:19,75 workflow INFO:
+	 Executing: t1_reorient ID: 81
+170930-18:26:19,78 workflow INFO:
+	 Executing node t1_reorient in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_reorient
+170930-18:26:19,77 workflow INFO:
+	 Executing: gen_ref ID: 1
+170930-18:26:19,89 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/gen_ref
+170930-18:26:19,124 workflow INFO:
+	 [Job finished] jobname: t1_reorient jobid: 81
+170930-18:26:20,210 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 1
+170930-18:26:20,217 workflow INFO:
+	 Executing: mcflirt ID: 12
+170930-18:26:20,250 workflow INFO:
+	 Executing node mcflirt in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_hmc_wf/mcflirt
+170930-18:26:20,266 workflow INFO:
+	 Running: mcflirt -in /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-rest_bold.nii.gz -out /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_hmc_wf/mcflirt/sub-113_task-rest_bold_mcf.nii.gz -reffile /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/gen_ref/ref_image.nii.gz -mats -plots
+170930-18:28:47,175 workflow INFO:
+	 [Job finished] jobname: mcflirt jobid: 12
+170930-18:28:47,183 workflow INFO:
+	 Executing: normalize_motion ID: 14
+170930-18:28:47,231 workflow INFO:
+	 Executing node normalize_motion in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_hmc_wf/normalize_motion
+170930-18:28:48,612 workflow INFO:
+	 [Job finished] jobname: split jobid: 65
+170930-18:28:48,628 workflow INFO:
+	 [Job finished] jobname: normalize_motion jobid: 14
+170930-18:28:48,633 workflow INFO:
+	 Executing: add_header ID: 16
+170930-18:28:48,636 workflow INFO:
+	 Executing node add_header in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/add_header
+170930-18:28:48,947 workflow INFO:
+	 [Job finished] jobname: add_header jobid: 16
+170930-18:28:50,543 workflow INFO:
+	 [Job finished] jobname: split jobid: 29
+170930-18:28:50,913 workflow INFO:
+	 [Job finished] jobname: split jobid: 47
+170930-18:28:50,918 workflow INFO:
+	 Executing: fsl2itk ID: 13
+170930-18:28:51,245 workflow INFO:
+	 Executing node fsl2itk in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_hmc_wf/fsl2itk
+170930-18:29:55,744 workflow INFO:
+	 [Job finished] jobname: split jobid: 11
+170930-18:29:55,750 workflow INFO:
+	 Executing: fdisp ID: 15
+170930-18:29:55,757 workflow INFO:
+	 Executing node fdisp in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/fdisp
+170930-18:30:02,366 workflow INFO:
+	 [Job finished] jobname: fdisp jobid: 15
+170930-18:32:47,110 workflow INFO:
+	 [Job finished] jobname: fsl2itk jobid: 13
+170930-18:32:47,514 workflow INFO:
+	 Executing: n4_correct ID: 2
+170930-18:32:47,576 workflow INFO:
+	 Executing node n4_correct in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct
+170930-18:32:47,639 workflow INFO:
+	 Running: N4BiasFieldCorrection -d 3 --input-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/gen_ref/ref_image.nii.gz --output ref_image_corrected.nii.gz
+170930-18:32:51,64 workflow INFO:
+	 [Job finished] jobname: n4_correct jobid: 2
+170930-18:32:51,73 workflow INFO:
+	 Executing: skullstrip_first_pass ID: 3
+170930-18:32:51,77 workflow INFO:
+	 Executing node skullstrip_first_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass
+170930-18:32:51,75 workflow INFO:
+	 Executing: t1_skull_strip ID: 82
+170930-18:32:51,84 workflow INFO:
+	 Executing node t1_skull_strip in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip
+170930-18:32:51,144 workflow INFO:
+	 Running: bet /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct/ref_image_corrected.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain.nii.gz -f 0.20 -m
+170930-18:32:51,157 workflow INFO:
+	 Running: antsBrainExtraction.sh -a /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_merge/sub-113_T1w_template.nii.gz -m /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/T_template0_BrainCerebellumProbabilityMask.nii.gz -e /home/despoB/dlurie/.cache/stanford-crn/ants_oasis_template_ras/T_template0.nii.gz -d 3 -f /home/despoB/dlurie/.cache/stanford-crn/ants_oasis_template_ras/T_template0_BrainCerebellumRegistrationMask.nii.gz -s nii.gz -k 1 -o highres001_ -q 1
+170930-18:32:57,809 workflow INFO:
+	 [Job finished] jobname: skullstrip_first_pass jobid: 3
+170930-18:32:57,816 workflow INFO:
+	 Executing: unifize ID: 4
+170930-18:32:57,823 workflow INFO:
+	 Executing node unifize in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize
+170930-18:33:01,421 workflow INFO:
+	 Running: 3dUnifize -clfrac 0.4 -prefix uni.nii.gz -T2 -input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/ref_image_corrected_brain.nii.gz
+170930-18:36:32,59 workflow INFO:
+	 [Job finished] jobname: unifize jobid: 4
+170930-18:36:32,64 workflow INFO:
+	 Executing: skullstrip_second_pass ID: 5
+170930-18:36:32,70 workflow INFO:
+	 Executing node skullstrip_second_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass
+170930-18:36:32,90 workflow INFO:
+	 Running: 3dAutomask -apply_prefix uni_masked.nii.gz -dilate 1 -prefix uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni.nii.gz
+170930-18:36:32,272 workflow INFO:
+	 [Job finished] jobname: skullstrip_second_pass jobid: 5
+170930-18:36:32,277 workflow INFO:
+	 Executing: combine_masks ID: 6
+170930-18:36:32,282 workflow INFO:
+	 Executing node combine_masks in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks
+170930-18:36:32,303 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain_mask.nii.gz -mul /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz
+170930-18:36:34,745 workflow INFO:
+	 [Job finished] jobname: combine_masks jobid: 6
+170930-18:36:34,750 workflow INFO:
+	 Executing: apply_mask ID: 7
+170930-18:36:34,763 workflow INFO:
+	 Executing node apply_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask
+170930-18:36:34,781 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/uni.nii.gz -mas /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz
+170930-18:36:34,970 workflow INFO:
+	 [Job finished] jobname: apply_mask jobid: 7
+170930-18:36:34,975 workflow INFO:
+	 Executing: mask_reportlet ID: 9
+170930-18:36:34,979 workflow INFO:
+	 Executing node mask_reportlet in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet
+170930-18:36:56,202 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet/report.html)
+170930-18:36:56,215 workflow INFO:
+	 [Job finished] jobname: mask_reportlet jobid: 9
+170930-18:36:56,220 workflow INFO:
+	 Executing: ds_bold_mask_report ID: 10
+170930-18:36:56,223 workflow INFO:
+	 Executing node ds_bold_mask_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_bold_mask_report
+170930-18:36:56,272 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_report jobid: 10
+170930-18:36:58,278 workflow INFO:
+	 Executing: gen_ref ID: 8
+170930-18:36:58,287 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/gen_ref
+170930-18:36:59,869 cli WARNING:
+	 Captured warning (<class 'UserWarning'>): The behaviour of affine_transform with a one-dimensional array supplied for the matrix parameter has changed in scipy 0.18.0.
+170930-18:37:00,169 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 8
+170930-18:37:00,174 workflow INFO:
+	 Executing: gen_ref ID: 19
+170930-18:37:00,178 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/gen_ref
+170930-18:37:00,777 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 19
+170930-18:37:00,781 workflow INFO:
+	 Executing: mcflirt ID: 30
+170930-18:37:00,787 workflow INFO:
+	 Executing node mcflirt in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_hmc_wf/mcflirt
+170930-18:37:00,803 workflow INFO:
+	 Running: mcflirt -in /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-03_bold.nii.gz -out /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_hmc_wf/mcflirt/sub-113_task-DistractWM_run-03_bold_mcf.nii.gz -reffile /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/gen_ref/ref_image.nii.gz -mats -plots
+170930-18:38:44,186 workflow INFO:
+	 [Job finished] jobname: mcflirt jobid: 30
+170930-18:38:44,191 workflow INFO:
+	 Executing: normalize_motion ID: 32
+170930-18:38:44,202 workflow INFO:
+	 Executing node normalize_motion in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_hmc_wf/normalize_motion
+170930-18:38:44,264 workflow INFO:
+	 [Job finished] jobname: normalize_motion jobid: 32
+170930-18:38:44,269 workflow INFO:
+	 Executing: add_header ID: 34
+170930-18:38:44,271 workflow INFO:
+	 Executing node add_header in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/add_header
+170930-18:38:44,330 workflow INFO:
+	 [Job finished] jobname: add_header jobid: 34
+170930-19:35:05,143 niworkflows INFO:
+	 Generating report for ANTS BrainExtraction. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionMask.nii.gz"
+170930-19:35:50,542 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/report.html)
+170930-19:35:50,587 workflow INFO:
+	 [Job finished] jobname: t1_skull_strip jobid: 82
+170930-19:35:50,596 workflow INFO:
+	 Executing: fsl2itk ID: 31
+170930-19:35:50,679 workflow INFO:
+	 Executing node fsl2itk in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_hmc_wf/fsl2itk
+170930-19:35:50,668 workflow INFO:
+	 Executing: fdisp ID: 33
+170930-19:35:50,697 workflow INFO:
+	 Executing node fdisp in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/fdisp
+170930-19:35:50,778 workflow INFO:
+	 [Job finished] jobname: fdisp jobid: 33
+170930-19:35:50,782 workflow INFO:
+	 Executing: flt_bbr_init ID: 204
+170930-19:35:50,801 workflow INFO:
+	 Executing node flt_bbr_init in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init
+170930-19:35:50,850 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -dof 6
+170930-19:35:58,843 workflow INFO:
+	 [Job finished] jobname: flt_bbr_init jobid: 204
+170930-19:35:58,848 workflow INFO:
+	 Executing: ds_t1_skull_strip_report ID: 242
+170930-19:35:58,860 workflow INFO:
+	 Executing node ds_t1_skull_strip_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_reports_wf/ds_t1_skull_strip_report
+170930-19:35:58,940 workflow INFO:
+	 [Job finished] jobname: ds_t1_skull_strip_report jobid: 242
+170930-19:36:00,946 workflow INFO:
+	 Executing: ds_t1_preproc ID: 244
+170930-19:36:00,959 workflow INFO:
+	 Executing node ds_t1_preproc in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_preproc
+170930-19:36:01,425 workflow INFO:
+	 [Job finished] jobname: ds_t1_preproc jobid: 244
+170930-19:36:03,437 workflow INFO:
+	 Executing: ds_t1_mask ID: 245
+170930-19:36:03,443 workflow INFO:
+	 Executing node ds_t1_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_mask
+170930-19:36:03,486 workflow INFO:
+	 [Job finished] jobname: ds_t1_mask jobid: 245
+170930-19:36:27,867 workflow INFO:
+	 [Job finished] jobname: fsl2itk jobid: 31
+170930-19:36:27,877 workflow INFO:
+	 Executing: n4_correct ID: 20
+170930-19:36:27,884 workflow INFO:
+	 Executing node n4_correct in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct
+170930-19:36:27,914 workflow INFO:
+	 Running: N4BiasFieldCorrection -d 3 --input-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/gen_ref/ref_image.nii.gz --output ref_image_corrected.nii.gz
+170930-19:36:29,581 workflow INFO:
+	 [Job finished] jobname: n4_correct jobid: 20
+170930-19:36:29,592 workflow INFO:
+	 Executing: skullstrip_first_pass ID: 21
+170930-19:36:29,606 workflow INFO:
+	 Executing node skullstrip_first_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass
+170930-19:36:29,598 workflow INFO:
+	 Executing: t1_2_mni ID: 88
+170930-19:36:29,620 workflow INFO:
+	 Executing node t1_2_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni
+170930-19:36:29,653 workflow INFO:
+	 Running: bet /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct/ref_image_corrected.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain.nii.gz -f 0.20 -m
+170930-19:36:32,804 workflow INFO:
+	 [Job finished] jobname: skullstrip_first_pass jobid: 21
+170930-19:36:32,809 workflow INFO:
+	 Executing: unifize ID: 22
+170930-19:36:32,813 workflow INFO:
+	 Executing node unifize in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize
+170930-19:36:32,833 workflow INFO:
+	 Running: 3dUnifize -clfrac 0.4 -prefix uni.nii.gz -T2 -input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/ref_image_corrected_brain.nii.gz
+170930-19:36:33,149 niworkflows INFO:
+	 Estimating initial transform using AffineInitializer
+170930-19:42:05,772 workflow INFO:
+	 [Job finished] jobname: unifize jobid: 22
+170930-19:42:05,777 workflow INFO:
+	 Executing: skullstrip_second_pass ID: 23
+170930-19:42:05,781 workflow INFO:
+	 Executing node skullstrip_second_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass
+170930-19:42:05,799 workflow INFO:
+	 Running: 3dAutomask -apply_prefix uni_masked.nii.gz -dilate 1 -prefix uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni.nii.gz
+170930-19:42:06,286 workflow INFO:
+	 [Job finished] jobname: skullstrip_second_pass jobid: 23
+170930-19:42:06,292 workflow INFO:
+	 Executing: combine_masks ID: 24
+170930-19:42:06,307 workflow INFO:
+	 Executing node combine_masks in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks
+170930-19:42:06,324 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain_mask.nii.gz -mul /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz
+170930-19:42:06,593 workflow INFO:
+	 [Job finished] jobname: combine_masks jobid: 24
+170930-19:42:06,597 workflow INFO:
+	 Executing: apply_mask ID: 25
+170930-19:42:06,602 workflow INFO:
+	 Executing node apply_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask
+170930-19:42:06,620 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/uni.nii.gz -mas /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz
+170930-19:42:06,910 workflow INFO:
+	 [Job finished] jobname: apply_mask jobid: 25
+170930-19:42:06,915 workflow INFO:
+	 Executing: mask_reportlet ID: 27
+170930-19:42:07,214 workflow INFO:
+	 Executing node mask_reportlet in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet
+170930-19:42:37,360 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet/report.html)
+170930-19:42:37,385 workflow INFO:
+	 [Job finished] jobname: mask_reportlet jobid: 27
+170930-19:42:37,390 workflow INFO:
+	 Executing: ds_bold_mask_report ID: 28
+170930-19:42:37,395 workflow INFO:
+	 Executing node ds_bold_mask_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_bold_mask_report
+170930-19:42:37,467 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_report jobid: 28
+170930-19:42:39,472 workflow INFO:
+	 Executing: flt_bbr_init ID: 167
+170930-19:42:39,488 workflow INFO:
+	 Executing node flt_bbr_init in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init
+170930-19:42:39,515 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -dof 6
+170930-19:43:00,65 workflow INFO:
+	 [Job finished] jobname: flt_bbr_init jobid: 167
+170930-19:43:00,70 workflow INFO:
+	 Executing: gen_ref ID: 26
+170930-19:43:00,75 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/gen_ref
+170930-19:43:01,393 cli WARNING:
+	 Captured warning (<class 'UserWarning'>): The behaviour of affine_transform with a one-dimensional array supplied for the matrix parameter has changed in scipy 0.18.0.
+170930-19:43:01,710 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 26
+170930-19:43:01,715 workflow INFO:
+	 Executing: gen_ref ID: 166
+170930-19:43:01,724 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/gen_ref
+170930-19:43:03,649 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 166
+170930-19:43:03,654 workflow INFO:
+	 Executing: gen_ref ID: 203
+170930-19:43:03,670 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/gen_ref
+170930-19:43:04,959 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 203
+170930-19:43:04,964 workflow INFO:
+	 Executing: gen_ref ID: 37
+170930-19:43:04,969 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/gen_ref
+170930-19:43:05,732 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 37
+170930-19:43:05,736 workflow INFO:
+	 Executing: mcflirt ID: 48
+170930-19:43:05,746 workflow INFO:
+	 Executing node mcflirt in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_hmc_wf/mcflirt
+170930-19:43:05,764 workflow INFO:
+	 Running: mcflirt -in /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-02_bold.nii.gz -out /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_hmc_wf/mcflirt/sub-113_task-DistractWM_run-02_bold_mcf.nii.gz -reffile /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/gen_ref/ref_image.nii.gz -mats -plots
+170930-19:45:03,291 workflow INFO:
+	 [Job finished] jobname: mcflirt jobid: 48
+170930-19:45:03,296 workflow INFO:
+	 Executing: normalize_motion ID: 50
+170930-19:45:03,306 workflow INFO:
+	 Executing node normalize_motion in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_hmc_wf/normalize_motion
+170930-19:45:03,370 workflow INFO:
+	 [Job finished] jobname: normalize_motion jobid: 50
+170930-19:45:03,375 workflow INFO:
+	 Executing: add_header ID: 52
+170930-19:45:03,377 workflow INFO:
+	 Executing node add_header in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/add_header
+170930-19:45:03,472 workflow INFO:
+	 [Job finished] jobname: add_header jobid: 52
+170930-19:52:35,312 niworkflows INFO:
+	 Loading settings from file /home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/data/t1-mni_registration_precise_000.json.
+170930-19:52:35,325 niworkflows INFO:
+	 Retry #0, commandline: 
+antsRegistration --collapse-output-transforms 1 --dimensionality 3 --float 1 --initial-moving-transform [ /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/transform.mat, 0 ] --initialize-transforms-per-stage 0 --interpolation LanczosWindowedSinc --output [ ants_t1_to_mni, ants_t1_to_mni_Warped.nii.gz ] --transform Rigid[ 0.05 ] --metric Mattes[ /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/fixed_masked.nii.gz, /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/moving_masked.nii.gz, 1, 56, Regular, 0.25 ] --convergence [ 100x100, 1e-06, 20 ] --smoothing-sigmas 2.0x1.0vox --shrink-factors 2x1 --use-estimate-learning-rate-once 1 --use-histogram-matching 1 --transform Affine[ 0.08 ] --metric Mattes[ /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/fixed_masked.nii.gz, /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/moving_masked.nii.gz, 1, 56, Regular, 0.25 ] --convergence [ 100x100, 1e-06, 20 ] --smoothing-sigmas 1.0x0.0vox --shrink-factors 2x1 --use-estimate-learning-rate-once 1 --use-histogram-matching 1 --transform SyN[ 0.1, 3.0, 0.0 ] --metric CC[ /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/fixed_masked.nii.gz, /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/moving_masked.nii.gz, 1, 4, None, 1 ] --convergence [ 100x70x50x20, 1e-06, 10 ] --smoothing-sigmas 3.0x2.0x1.0x0.0vox --shrink-factors 8x4x2x1 --use-estimate-learning-rate-once 1 --use-histogram-matching 1 --winsorize-image-intensities [ 0.005, 0.995 ]  --write-composite-transform 1
+170930-23:01:08,64 niworkflows INFO:
+	 Successful spatial normalization (retry #0).
+170930-23:01:08,72 niworkflows INFO:
+	 Report - setting fixed (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/fixed_masked.nii.gz) and moving (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mni_Warped.nii.gz) images
+170930-23:01:08,73 niworkflows INFO:
+	 Generating visual report
+170930-23:01:23,138 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/report.svg)
+170930-23:01:23,170 workflow INFO:
+	 [Job finished] jobname: t1_2_mni jobid: 88
+170930-23:01:23,181 workflow INFO:
+	 Executing: fsl2itk ID: 49
+170930-23:01:23,340 workflow INFO:
+	 Executing node fsl2itk in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_hmc_wf/fsl2itk
+170930-23:01:23,327 workflow INFO:
+	 Executing: fdisp ID: 51
+170930-23:01:23,680 workflow INFO:
+	 Executing node fdisp in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/fdisp
+170930-23:01:24,404 workflow INFO:
+	 [Job finished] jobname: fdisp jobid: 51
+170930-23:01:24,409 workflow INFO:
+	 Executing: mni_mask ID: 91
+170930-23:01:24,431 workflow INFO:
+	 Executing node mni_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_mask
+170930-23:01:24,465 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --dimensionality 3 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionMask.nii.gz --interpolation NearestNeighbor --output highres001_BrainExtractionMask_trans.nii.gz --reference-image /home/despoB/dlurie/.cache/stanford-crn/mni_icbm152_nlin_asym_09c/1mm_T1.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5
+170930-23:01:28,542 workflow INFO:
+	 [Job finished] jobname: mni_mask jobid: 91
+170930-23:01:28,552 workflow INFO:
+	 Executing: ds_t1_2_mni_report ID: 243
+170930-23:01:28,588 workflow INFO:
+	 Executing node ds_t1_2_mni_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_reports_wf/ds_t1_2_mni_report
+170930-23:01:28,674 workflow INFO:
+	 [Job finished] jobname: ds_t1_2_mni_report jobid: 243
+170930-23:01:30,686 workflow INFO:
+	 Executing: ds_t1_mni_warp ID: 248
+170930-23:01:30,690 workflow INFO:
+	 Executing node ds_t1_mni_warp in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_mni_warp
+170930-23:01:32,143 workflow INFO:
+	 [Job finished] jobname: ds_t1_mni_warp jobid: 248
+170930-23:01:34,153 workflow INFO:
+	 Executing: ds_t1_mni ID: 249
+170930-23:01:34,165 workflow INFO:
+	 Executing node ds_t1_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_mni
+170930-23:01:34,420 workflow INFO:
+	 [Job finished] jobname: ds_t1_mni jobid: 249
+170930-23:01:36,427 workflow INFO:
+	 Executing: ds_mni_mask ID: 250
+170930-23:01:36,431 workflow INFO:
+	 Executing node ds_mni_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_mni_mask
+170930-23:01:36,488 workflow INFO:
+	 [Job finished] jobname: ds_mni_mask jobid: 250
+170930-23:02:02,970 workflow INFO:
+	 [Job finished] jobname: fsl2itk jobid: 49
+170930-23:02:02,983 workflow INFO:
+	 Executing: n4_correct ID: 38
+170930-23:02:02,998 workflow INFO:
+	 Executing node n4_correct in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct
+170930-23:02:02,990 workflow INFO:
+	 Executing: gen_ref ID: 55
+170930-23:02:03,39 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/gen_ref
+170930-23:02:03,54 workflow INFO:
+	 Running: N4BiasFieldCorrection -d 3 --input-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/gen_ref/ref_image.nii.gz --output ref_image_corrected.nii.gz
+170930-23:02:03,551 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 55
+170930-23:02:03,556 workflow INFO:
+	 Executing: mcflirt ID: 66
+170930-23:02:03,575 workflow INFO:
+	 Executing node mcflirt in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_hmc_wf/mcflirt
+170930-23:02:03,604 workflow INFO:
+	 Running: mcflirt -in /home/despoB/DistractWM/data/raw/BIDS/sub-113/func/sub-113_task-DistractWM_run-01_bold.nii.gz -out /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_hmc_wf/mcflirt/sub-113_task-DistractWM_run-01_bold_mcf.nii.gz -reffile /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/gen_ref/ref_image.nii.gz -mats -plots
+170930-23:02:11,359 workflow INFO:
+	 [Job finished] jobname: n4_correct jobid: 38
+170930-23:02:11,363 workflow INFO:
+	 Executing: skullstrip_first_pass ID: 39
+170930-23:02:11,369 workflow INFO:
+	 Executing node skullstrip_first_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass
+170930-23:02:11,387 workflow INFO:
+	 Running: bet /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct/ref_image_corrected.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain.nii.gz -f 0.20 -m
+170930-23:02:14,488 workflow INFO:
+	 [Job finished] jobname: skullstrip_first_pass jobid: 39
+170930-23:02:14,492 workflow INFO:
+	 Executing: unifize ID: 40
+170930-23:02:14,497 workflow INFO:
+	 Executing node unifize in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize
+170930-23:02:14,517 workflow INFO:
+	 Running: 3dUnifize -clfrac 0.4 -prefix uni.nii.gz -T2 -input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/ref_image_corrected_brain.nii.gz
+170930-23:02:58,986 workflow INFO:
+	 [Job finished] jobname: mcflirt jobid: 66
+170930-23:02:58,992 workflow INFO:
+	 Executing: normalize_motion ID: 68
+170930-23:02:59,0 workflow INFO:
+	 Executing node normalize_motion in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_hmc_wf/normalize_motion
+170930-23:02:59,43 workflow INFO:
+	 [Job finished] jobname: normalize_motion jobid: 68
+170930-23:02:59,47 workflow INFO:
+	 Executing: add_header ID: 70
+170930-23:02:59,49 workflow INFO:
+	 Executing node add_header in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/add_header
+170930-23:02:59,82 workflow INFO:
+	 [Job finished] jobname: add_header jobid: 70
+170930-23:03:01,87 workflow INFO:
+	 Executing: fsl2itk ID: 67
+170930-23:03:01,130 workflow INFO:
+	 Executing node fsl2itk in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_hmc_wf/fsl2itk
+170930-23:03:41,516 workflow INFO:
+	 [Job finished] jobname: fsl2itk jobid: 67
+170930-23:03:41,521 workflow INFO:
+	 Executing: fdisp ID: 69
+170930-23:03:41,525 workflow INFO:
+	 Executing node fdisp in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/fdisp
+170930-23:03:41,575 workflow INFO:
+	 [Job finished] jobname: fdisp jobid: 69
+170930-23:03:41,579 workflow INFO:
+	 Executing: n4_correct ID: 56
+170930-23:03:41,583 workflow INFO:
+	 Executing node n4_correct in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct
+170930-23:03:41,601 workflow INFO:
+	 Running: N4BiasFieldCorrection -d 3 --input-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/gen_ref/ref_image.nii.gz --output ref_image_corrected.nii.gz
+170930-23:03:50,165 workflow INFO:
+	 [Job finished] jobname: n4_correct jobid: 56
+170930-23:03:50,170 workflow INFO:
+	 Executing: skullstrip_first_pass ID: 57
+170930-23:03:50,174 workflow INFO:
+	 Executing node skullstrip_first_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass
+170930-23:03:50,173 workflow INFO:
+	 Executing: t1_seg ID: 83
+170930-23:03:50,188 workflow INFO:
+	 Executing node t1_seg in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg
+170930-23:03:50,196 workflow INFO:
+	 Running: bet /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/n4_correct/ref_image_corrected.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain.nii.gz -f 0.20 -m
+170930-23:03:50,216 workflow INFO:
+	 Running: fast -N -p -g -S 1 /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain.nii.gz
+170930-23:03:55,232 workflow INFO:
+	 [Job finished] jobname: skullstrip_first_pass jobid: 57
+170930-23:03:55,236 workflow INFO:
+	 Executing: unifize ID: 58
+170930-23:03:55,240 workflow INFO:
+	 Executing node unifize in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize
+170930-23:03:55,259 workflow INFO:
+	 Running: 3dUnifize -clfrac 0.4 -prefix uni.nii.gz -T2 -input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/ref_image_corrected_brain.nii.gz
+170930-23:05:15,367 workflow INFO:
+	 [Job finished] jobname: unifize jobid: 40
+170930-23:05:15,372 workflow INFO:
+	 Executing: skullstrip_second_pass ID: 41
+170930-23:05:15,376 workflow INFO:
+	 Executing node skullstrip_second_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass
+170930-23:05:15,396 workflow INFO:
+	 Running: 3dAutomask -apply_prefix uni_masked.nii.gz -dilate 1 -prefix uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni.nii.gz
+170930-23:05:15,767 workflow INFO:
+	 [Job finished] jobname: skullstrip_second_pass jobid: 41
+170930-23:05:15,771 workflow INFO:
+	 Executing: combine_masks ID: 42
+170930-23:05:15,788 workflow INFO:
+	 Executing node combine_masks in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks
+170930-23:05:15,806 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain_mask.nii.gz -mul /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz
+170930-23:05:16,26 workflow INFO:
+	 [Job finished] jobname: combine_masks jobid: 42
+170930-23:05:16,31 workflow INFO:
+	 Executing: apply_mask ID: 43
+170930-23:05:16,36 workflow INFO:
+	 Executing node apply_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask
+170930-23:05:16,34 workflow INFO:
+	 Executing: mask_reportlet ID: 45
+170930-23:05:16,45 workflow INFO:
+	 Executing node mask_reportlet in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet
+170930-23:05:16,44 workflow INFO:
+	 Executing: gen_ref ID: 44
+170930-23:05:16,55 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/gen_ref
+170930-23:05:16,57 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/uni.nii.gz -mas /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz
+170930-23:05:16,486 workflow INFO:
+	 [Job finished] jobname: apply_mask jobid: 43
+170930-23:05:16,491 workflow INFO:
+	 Executing: flt_bbr_init ID: 130
+170930-23:05:16,501 workflow INFO:
+	 Executing node flt_bbr_init in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init
+170930-23:05:16,499 workflow INFO:
+	 Executing: gen_ref ID: 129
+170930-23:05:16,519 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/gen_ref
+170930-23:05:16,540 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -dof 6
+170930-23:05:18,425 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 44
+170930-23:05:18,486 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 129
+170930-23:05:38,503 workflow INFO:
+	 [Job finished] jobname: flt_bbr_init jobid: 130
+170930-23:05:44,835 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet/report.html)
+170930-23:05:44,879 workflow INFO:
+	 [Job finished] jobname: mask_reportlet jobid: 45
+170930-23:05:44,883 workflow INFO:
+	 Executing: ds_bold_mask_report ID: 46
+170930-23:05:44,894 workflow INFO:
+	 Executing node ds_bold_mask_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_bold_mask_report
+170930-23:05:44,959 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_report jobid: 46
+170930-23:07:33,244 workflow INFO:
+	 [Job finished] jobname: unifize jobid: 58
+170930-23:07:33,248 workflow INFO:
+	 Executing: skullstrip_second_pass ID: 59
+170930-23:07:33,252 workflow INFO:
+	 Executing node skullstrip_second_pass in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass
+170930-23:07:33,269 workflow INFO:
+	 Running: 3dAutomask -apply_prefix uni_masked.nii.gz -dilate 1 -prefix uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni.nii.gz
+170930-23:07:33,560 workflow INFO:
+	 [Job finished] jobname: skullstrip_second_pass jobid: 59
+170930-23:07:33,565 workflow INFO:
+	 Executing: combine_masks ID: 60
+170930-23:07:33,575 workflow INFO:
+	 Executing node combine_masks in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks
+170930-23:07:33,847 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_first_pass/ref_image_corrected_brain_mask.nii.gz -mul /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/skullstrip_second_pass/uni_mask.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz
+170930-23:07:34,35 workflow INFO:
+	 [Job finished] jobname: combine_masks jobid: 60
+170930-23:07:34,40 workflow INFO:
+	 Executing: apply_mask ID: 61
+170930-23:07:34,45 workflow INFO:
+	 Executing node apply_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask
+170930-23:07:34,43 workflow INFO:
+	 Executing: mask_reportlet ID: 63
+170930-23:07:34,52 workflow INFO:
+	 Executing node mask_reportlet in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet
+170930-23:07:34,52 workflow INFO:
+	 Executing: gen_ref ID: 62
+170930-23:07:34,60 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/gen_ref
+170930-23:07:34,67 workflow INFO:
+	 Running: fslmaths /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/unifize/uni.nii.gz -mas /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz
+170930-23:07:34,372 workflow INFO:
+	 [Job finished] jobname: apply_mask jobid: 61
+170930-23:07:34,376 workflow INFO:
+	 Executing: flt_bbr_init ID: 93
+170930-23:07:34,401 workflow INFO:
+	 Executing node flt_bbr_init in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init
+170930-23:07:34,399 workflow INFO:
+	 Executing: gen_ref ID: 92
+170930-23:07:34,407 workflow INFO:
+	 Executing node gen_ref in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/gen_ref
+170930-23:07:34,426 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -dof 6
+170930-23:07:35,622 cli WARNING:
+	 Captured warning (<class 'UserWarning'>): The behaviour of affine_transform with a one-dimensional array supplied for the matrix parameter has changed in scipy 0.18.0.
+170930-23:07:35,928 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 92
+170930-23:07:35,999 workflow INFO:
+	 [Job finished] jobname: gen_ref jobid: 62
+170930-23:07:51,313 workflow INFO:
+	 [Job finished] jobname: flt_bbr_init jobid: 93
+170930-23:07:54,494 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/mask_reportlet/report.html)
+170930-23:07:54,509 workflow INFO:
+	 [Job finished] jobname: mask_reportlet jobid: 63
+170930-23:07:54,513 workflow INFO:
+	 Executing: ds_bold_mask_report ID: 64
+170930-23:07:54,516 workflow INFO:
+	 Executing node ds_bold_mask_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_bold_mask_report
+170930-23:07:54,565 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_report jobid: 64
+170930-23:08:18,948 niworkflows INFO:
+	 Generating report for FAST (in_files ['/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain.nii.gz'], segmentation /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_seg.nii.gz, individual tissue classes ['/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_seg_0.nii.gz', '/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_seg_1.nii.gz', '/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_seg_2.nii.gz']).
+170930-23:08:26,710 cli WARNING:
+	 Captured warning (<class 'UserWarning'>): Casting data from int32 to float32
+170930-23:09:23,696 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/report.html)
+170930-23:09:23,757 workflow INFO:
+	 [Job finished] jobname: t1_seg jobid: 83
+170930-23:09:23,766 workflow INFO:
+	 Executing: wm_mask ID: 84
+170930-23:09:23,771 workflow INFO:
+	 Executing node wm_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/wm_mask
+170930-23:09:23,770 workflow INFO:
+	 Executing: wm_mask ID: 85
+170930-23:09:23,777 workflow INFO:
+	 Executing node wm_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/wm_mask
+170930-23:09:23,776 workflow INFO:
+	 Executing: wm_mask ID: 86
+170930-23:09:23,816 workflow INFO:
+	 Executing node wm_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/wm_mask
+170930-23:09:23,815 workflow INFO:
+	 Executing: wm_mask ID: 87
+170930-23:09:23,852 workflow INFO:
+	 Executing: mni_seg ID: 89
+170930-23:09:23,853 workflow INFO:
+	 Executing node wm_mask in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/wm_mask
+170930-23:09:23,865 workflow INFO:
+	 Executing: mni_tpms ID: 90
+170930-23:09:23,869 workflow INFO:
+	 Executing node mni_seg in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_seg
+170930-23:09:23,891 workflow INFO:
+	 Adding 3 jobs for mapnode mni_tpms
+170930-23:09:23,902 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --dimensionality 3 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_seg.nii.gz --interpolation NearestNeighbor --output highres001_BrainExtractionBrain_seg_trans.nii.gz --reference-image /home/despoB/dlurie/.cache/stanford-crn/mni_icbm152_nlin_asym_09c/1mm_T1.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5
+170930-23:09:23,916 workflow INFO:
+	 Executing: ds_t1_seg_report ID: 241
+170930-23:09:23,964 workflow INFO:
+	 Executing node ds_t1_seg_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_reports_wf/ds_t1_seg_report
+170930-23:09:24,74 workflow INFO:
+	 [Job finished] jobname: ds_t1_seg_report jobid: 241
+170930-23:09:25,712 workflow INFO:
+	 [Job finished] jobname: wm_mask jobid: 87
+170930-23:09:25,717 workflow INFO:
+	 Executing: flt_bbr ID: 205
+170930-23:09:25,781 workflow INFO:
+	 Executing: ds_t1_seg ID: 246
+170930-23:09:25,783 workflow INFO:
+	 Executing node flt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr
+170930-23:09:25,788 workflow INFO:
+	 Executing node ds_t1_seg in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_seg
+170930-23:09:25,805 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -searchcost bbr -dof 9 -init /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init/uni_masked_flirt.mat -schedule /home/despoB/dlurie/Software/fsl/etc/flirtsch/bbr.sch -verbose 1 -wmseg /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/wm_mask/wm.nii.gz
+170930-23:09:25,842 workflow INFO:
+	 [Job finished] jobname: ds_t1_seg jobid: 246
+170930-23:09:25,843 workflow INFO:
+	 [Job finished] jobname: wm_mask jobid: 86
+170930-23:09:25,848 workflow INFO:
+	 Executing: flt_bbr ID: 168
+170930-23:09:25,880 workflow INFO:
+	 Executing node flt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr
+170930-23:09:25,878 workflow INFO:
+	 Executing: ds_t1_tpms ID: 247
+170930-23:09:25,893 workflow INFO:
+	 Executing node ds_t1_tpms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_t1_tpms
+170930-23:09:25,899 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -searchcost bbr -dof 9 -init /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init/uni_masked_flirt.mat -schedule /home/despoB/dlurie/Software/fsl/etc/flirtsch/bbr.sch -verbose 1 -wmseg /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/wm_mask/wm.nii.gz
+170930-23:09:26,343 workflow INFO:
+	 [Job finished] jobname: ds_t1_tpms jobid: 247
+170930-23:09:26,345 workflow INFO:
+	 [Job finished] jobname: wm_mask jobid: 84
+170930-23:09:26,346 workflow INFO:
+	 [Job finished] jobname: wm_mask jobid: 85
+170930-23:09:26,357 workflow INFO:
+	 Executing: flt_bbr ID: 94
+170930-23:09:26,391 workflow INFO:
+	 Executing node flt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr
+170930-23:09:26,389 workflow INFO:
+	 Executing: flt_bbr ID: 131
+170930-23:09:26,413 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -searchcost bbr -dof 9 -init /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init/uni_masked_flirt.mat -schedule /home/despoB/dlurie/Software/fsl/etc/flirtsch/bbr.sch -verbose 1 -wmseg /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/wm_mask/wm.nii.gz
+170930-23:09:26,416 workflow INFO:
+	 Executing node flt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr
+170930-23:09:26,414 workflow INFO:
+	 Executing: _mni_tpms0 ID: 253
+170930-23:09:26,436 workflow INFO:
+	 Executing node _mni_tpms0 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms0
+170930-23:09:26,502 workflow INFO:
+	 Running: flirt -in /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz -out uni_masked_flirt.nii.gz -omat uni_masked_flirt.mat -searchcost bbr -dof 9 -init /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr_init/uni_masked_flirt.mat -schedule /home/despoB/dlurie/Software/fsl/etc/flirtsch/bbr.sch -verbose 1 -wmseg /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/wm_mask/wm.nii.gz
+170930-23:09:26,517 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --dimensionality 3 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_prob_0.nii.gz --interpolation Linear --output highres001_BrainExtractionBrain_prob_0_trans.nii.gz --reference-image /home/despoB/dlurie/.cache/stanford-crn/mni_icbm152_nlin_asym_09c/1mm_T1.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5
+170930-23:09:33,222 workflow INFO:
+	 [Job finished] jobname: mni_seg jobid: 89
+170930-23:09:33,227 workflow INFO:
+	 Executing: ds_mni_seg ID: 251
+170930-23:09:33,231 workflow INFO:
+	 Executing node ds_mni_seg in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_mni_seg
+170930-23:09:33,322 workflow INFO:
+	 [Job finished] jobname: ds_mni_seg jobid: 251
+170930-23:09:35,327 workflow INFO:
+	 Executing: _mni_tpms1 ID: 254
+170930-23:09:35,331 workflow INFO:
+	 Executing node _mni_tpms1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms1
+170930-23:09:35,369 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --dimensionality 3 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_prob_1.nii.gz --interpolation Linear --output highres001_BrainExtractionBrain_prob_1_trans.nii.gz --reference-image /home/despoB/dlurie/.cache/stanford-crn/mni_icbm152_nlin_asym_09c/1mm_T1.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5
+170930-23:09:39,436 workflow INFO:
+	 [Job finished] jobname: _mni_tpms0 jobid: 253
+170930-23:09:39,440 workflow INFO:
+	 Executing: _mni_tpms2 ID: 255
+170930-23:09:39,450 workflow INFO:
+	 Executing node _mni_tpms2 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms2
+170930-23:09:39,856 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --dimensionality 3 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_seg/highres001_BrainExtractionBrain_prob_2.nii.gz --interpolation Linear --output highres001_BrainExtractionBrain_prob_2_trans.nii.gz --reference-image /home/despoB/dlurie/.cache/stanford-crn/mni_icbm152_nlin_asym_09c/1mm_T1.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5
+170930-23:09:47,709 workflow INFO:
+	 [Job finished] jobname: _mni_tpms1 jobid: 254
+170930-23:09:51,687 workflow INFO:
+	 [Job finished] jobname: _mni_tpms2 jobid: 255
+170930-23:09:51,691 workflow INFO:
+	 Executing: mni_tpms ID: 90
+170930-23:09:51,697 workflow INFO:
+	 Executing node mni_tpms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms
+170930-23:09:51,712 workflow INFO:
+	 Executing node _mni_tpms0 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms0
+170930-23:09:51,714 workflow INFO:
+	 Collecting precomputed outputs
+170930-23:09:51,726 workflow INFO:
+	 Executing node _mni_tpms1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms1
+170930-23:09:51,737 workflow INFO:
+	 Collecting precomputed outputs
+170930-23:09:51,740 workflow INFO:
+	 Executing node _mni_tpms2 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/mni_tpms/mapflow/_mni_tpms2
+170930-23:09:51,759 workflow INFO:
+	 Collecting precomputed outputs
+170930-23:09:51,789 workflow INFO:
+	 [Job finished] jobname: mni_tpms jobid: 90
+170930-23:09:51,793 workflow INFO:
+	 Executing: ds_mni_tpms ID: 252
+170930-23:09:51,806 workflow INFO:
+	 Executing node ds_mni_tpms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/anat_derivatives_wf/ds_mni_tpms
+170930-23:09:52,131 workflow INFO:
+	 [Job finished] jobname: ds_mni_tpms jobid: 252
+170930-23:20:53,734 niworkflows INFO:
+	 Report - setting fixed (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz) and moving (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.nii.gz) images
+170930-23:20:53,734 niworkflows INFO:
+	 Generating visual report
+170930-23:21:01,691 niworkflows INFO:
+	 Report - setting fixed (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz) and moving (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.nii.gz) images
+170930-23:21:01,692 niworkflows INFO:
+	 Generating visual report
+170930-23:23:06,569 niworkflows INFO:
+	 Report - setting fixed (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz) and moving (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.nii.gz) images
+170930-23:23:06,573 niworkflows INFO:
+	 Generating visual report
+170930-23:23:18,870 niworkflows INFO:
+	 Report - setting fixed (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_BrainExtractionBrain.nii.gz) and moving (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.nii.gz) images
+170930-23:23:18,871 niworkflows INFO:
+	 Generating visual report
+170930-23:27:15,588 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/report.svg)
+170930-23:27:15,630 workflow INFO:
+	 [Job finished] jobname: flt_bbr jobid: 205
+170930-23:27:15,635 workflow INFO:
+	 Executing: invt_bbr ID: 207
+170930-23:27:15,644 workflow INFO:
+	 Executing node invt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/invt_bbr
+170930-23:27:15,638 workflow INFO:
+	 Executing: fsl2itk_fwd ID: 209
+170930-23:27:15,677 workflow INFO:
+	 Executing node fsl2itk_fwd in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_fwd
+170930-23:27:15,675 workflow INFO:
+	 Executing: ds_bold_reg_report ID: 225
+170930-23:27:15,679 workflow INFO:
+	 Running: convert_xfm -omat /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -inverse /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat
+170930-23:27:15,695 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:15,706 workflow INFO:
+	 Executing node ds_bold_reg_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_bold_reg_report
+170930-23:27:15,874 workflow INFO:
+	 [Job finished] jobname: ds_bold_reg_report jobid: 225
+170930-23:27:16,527 workflow INFO:
+	 [Job finished] jobname: invt_bbr jobid: 207
+170930-23:27:16,532 workflow INFO:
+	 Executing: fsl2itk_inv ID: 208
+170930-23:27:16,539 workflow INFO:
+	 Executing node fsl2itk_inv in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_inv
+170930-23:27:16,538 workflow INFO:
+	 Executing: get_cost ID: 206
+170930-23:27:16,548 workflow INFO:
+	 Executing node get_cost in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl_bbr_wf/get_cost
+170930-23:27:16,555 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_inv/affine.txt
+170930-23:27:16,638 workflow INFO:
+	 [Job finished] jobname: get_cost jobid: 206
+170930-23:27:18,379 workflow INFO:
+	 [Job finished] jobname: fsl2itk_fwd jobid: 209
+170930-23:27:18,383 workflow INFO:
+	 Executing: merge_xforms ID: 212
+170930-23:27:18,402 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/merge_xforms
+170930-23:27:18,449 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 212
+170930-23:27:18,451 workflow INFO:
+	 Executing: merge_xforms ID: 218
+170930-23:27:18,485 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/merge_xforms
+170930-23:27:18,536 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 218
+170930-23:27:18,662 workflow INFO:
+	 [Job finished] jobname: fsl2itk_inv jobid: 208
+170930-23:27:18,666 workflow INFO:
+	 Executing: mask_merge_tfms ID: 222
+170930-23:27:18,669 workflow INFO:
+	 Executing node mask_merge_tfms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/mask_merge_tfms
+170930-23:27:18,708 workflow INFO:
+	 [Job finished] jobname: mask_merge_tfms jobid: 222
+170930-23:27:18,710 workflow INFO:
+	 Executing: mask_t1w_tfm ID: 210
+170930-23:27:18,730 workflow INFO:
+	 Executing node mask_t1w_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/mask_t1w_tfm
+170930-23:27:18,746 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/gen_ref/highres001_BrainExtractionBrain_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:19,376 workflow INFO:
+	 [Job finished] jobname: mask_t1w_tfm jobid: 210
+170930-23:27:19,381 workflow INFO:
+	 Executing: ds_bold_mask_t1 ID: 211
+170930-23:27:19,384 workflow INFO:
+	 Executing node ds_bold_mask_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_derivatives_wf/ds_bold_mask_t1
+170930-23:27:19,432 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_t1 jobid: 211
+170930-23:27:19,434 workflow INFO:
+	 Executing: mask_mni_tfm ID: 223
+170930-23:27:19,462 workflow INFO:
+	 Executing node mask_mni_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/mask_mni_tfm
+170930-23:27:19,480 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/gen_ref/1mm_T1_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5 --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:20,628 workflow INFO:
+	 [Job finished] jobname: mask_mni_tfm jobid: 223
+170930-23:27:20,632 workflow INFO:
+	 Executing: ds_bold_mask_mni ID: 224
+170930-23:27:20,635 workflow INFO:
+	 Executing node ds_bold_mask_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_derivatives_wf/ds_bold_mask_mni
+170930-23:27:20,682 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_mni jobid: 224
+170930-23:27:23,257 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/report.svg)
+170930-23:27:23,290 workflow INFO:
+	 [Job finished] jobname: flt_bbr jobid: 94
+170930-23:27:23,295 workflow INFO:
+	 Executing: invt_bbr ID: 96
+170930-23:27:23,299 workflow INFO:
+	 Executing node invt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/invt_bbr
+170930-23:27:23,297 workflow INFO:
+	 Executing: fsl2itk_fwd ID: 98
+170930-23:27:23,308 workflow INFO:
+	 Executing node fsl2itk_fwd in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_fwd
+170930-23:27:23,307 workflow INFO:
+	 Executing: ds_bold_reg_report ID: 114
+170930-23:27:23,317 workflow INFO:
+	 Executing node ds_bold_reg_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_bold_reg_report
+170930-23:27:23,320 workflow INFO:
+	 Running: convert_xfm -omat /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -inverse /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat
+170930-23:27:23,328 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:23,460 workflow INFO:
+	 [Job finished] jobname: ds_bold_reg_report jobid: 114
+170930-23:27:23,582 workflow INFO:
+	 [Job finished] jobname: invt_bbr jobid: 96
+170930-23:27:23,586 workflow INFO:
+	 Executing: fsl2itk_inv ID: 97
+170930-23:27:23,597 workflow INFO:
+	 Executing node fsl2itk_inv in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_inv
+170930-23:27:23,614 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_inv/affine.txt
+170930-23:27:25,95 workflow INFO:
+	 [Job finished] jobname: fsl2itk_fwd jobid: 98
+170930-23:27:25,99 workflow INFO:
+	 Executing: merge_xforms ID: 101
+170930-23:27:25,103 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/merge_xforms
+170930-23:27:25,132 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 101
+170930-23:27:25,134 workflow INFO:
+	 Executing: merge_xforms ID: 107
+170930-23:27:25,161 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/merge_xforms
+170930-23:27:25,201 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 107
+170930-23:27:25,202 workflow INFO:
+	 Executing: mask_merge_tfms ID: 111
+170930-23:27:25,218 workflow INFO:
+	 Executing node mask_merge_tfms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/mask_merge_tfms
+170930-23:27:25,259 workflow INFO:
+	 [Job finished] jobname: mask_merge_tfms jobid: 111
+170930-23:27:25,343 workflow INFO:
+	 [Job finished] jobname: fsl2itk_inv jobid: 97
+170930-23:27:25,348 workflow INFO:
+	 Executing: mask_t1w_tfm ID: 99
+170930-23:27:25,358 workflow INFO:
+	 Executing node mask_t1w_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/mask_t1w_tfm
+170930-23:27:25,357 workflow INFO:
+	 Executing: mask_mni_tfm ID: 112
+170930-23:27:25,371 workflow INFO:
+	 Executing node mask_mni_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/mask_mni_tfm
+170930-23:27:25,379 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/gen_ref/highres001_BrainExtractionBrain_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:25,399 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/gen_ref/1mm_T1_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5 --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:27:25,979 workflow INFO:
+	 [Job finished] jobname: mask_t1w_tfm jobid: 99
+170930-23:27:25,983 workflow INFO:
+	 Executing: ds_bold_mask_t1 ID: 100
+170930-23:27:25,985 workflow INFO:
+	 Executing node ds_bold_mask_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_derivatives_wf/ds_bold_mask_t1
+170930-23:27:26,36 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_t1 jobid: 100
+170930-23:27:26,431 workflow INFO:
+	 [Job finished] jobname: mask_mni_tfm jobid: 112
+170930-23:27:26,435 workflow INFO:
+	 Executing: ds_bold_mask_mni ID: 113
+170930-23:27:26,438 workflow INFO:
+	 Executing node ds_bold_mask_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_derivatives_wf/ds_bold_mask_mni
+170930-23:27:26,507 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_mni jobid: 113
+170930-23:28:25,298 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/report.svg)
+170930-23:28:25,327 workflow INFO:
+	 [Job finished] jobname: flt_bbr jobid: 131
+170930-23:28:25,331 workflow INFO:
+	 Executing: invt_bbr ID: 133
+170930-23:28:25,335 workflow INFO:
+	 Executing node invt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/invt_bbr
+170930-23:28:25,334 workflow INFO:
+	 Executing: fsl2itk_fwd ID: 135
+170930-23:28:25,349 workflow INFO:
+	 Executing node fsl2itk_fwd in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_fwd
+170930-23:28:25,348 workflow INFO:
+	 Executing: ds_bold_reg_report ID: 151
+170930-23:28:25,355 workflow INFO:
+	 Running: convert_xfm -omat /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -inverse /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat
+170930-23:28:25,365 workflow INFO:
+	 Executing node ds_bold_reg_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_bold_reg_report
+170930-23:28:25,372 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:25,476 workflow INFO:
+	 [Job finished] jobname: ds_bold_reg_report jobid: 151
+170930-23:28:25,564 workflow INFO:
+	 [Job finished] jobname: invt_bbr jobid: 133
+170930-23:28:25,569 workflow INFO:
+	 Executing: fsl2itk_inv ID: 134
+170930-23:28:25,579 workflow INFO:
+	 Executing node fsl2itk_inv in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_inv
+170930-23:28:25,617 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_inv/affine.txt
+170930-23:28:26,650 workflow INFO:
+	 [Job finished] jobname: fsl2itk_fwd jobid: 135
+170930-23:28:26,654 workflow INFO:
+	 Executing: merge_xforms ID: 138
+170930-23:28:26,657 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/merge_xforms
+170930-23:28:26,688 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 138
+170930-23:28:26,690 workflow INFO:
+	 Executing: merge_xforms ID: 144
+170930-23:28:26,706 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/merge_xforms
+170930-23:28:26,743 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 144
+170930-23:28:26,745 workflow INFO:
+	 Executing: mask_merge_tfms ID: 148
+170930-23:28:26,756 workflow INFO:
+	 Executing node mask_merge_tfms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/mask_merge_tfms
+170930-23:28:26,790 workflow INFO:
+	 [Job finished] jobname: mask_merge_tfms jobid: 148
+170930-23:28:26,791 workflow INFO:
+	 Executing: mask_t1w_tfm ID: 136
+170930-23:28:26,809 workflow INFO:
+	 Executing node mask_t1w_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/mask_t1w_tfm
+170930-23:28:26,827 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/gen_ref/highres001_BrainExtractionBrain_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:26,923 workflow INFO:
+	 [Job finished] jobname: fsl2itk_inv jobid: 134
+170930-23:28:26,928 workflow INFO:
+	 Executing: mask_mni_tfm ID: 149
+170930-23:28:26,936 workflow INFO:
+	 Executing node mask_mni_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/mask_mni_tfm
+170930-23:28:26,954 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/gen_ref/1mm_T1_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5 --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:27,298 workflow INFO:
+	 [Job finished] jobname: mask_t1w_tfm jobid: 136
+170930-23:28:27,302 workflow INFO:
+	 Executing: ds_bold_mask_t1 ID: 137
+170930-23:28:27,306 workflow INFO:
+	 Executing node ds_bold_mask_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_derivatives_wf/ds_bold_mask_t1
+170930-23:28:27,345 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_t1 jobid: 137
+170930-23:28:27,774 workflow INFO:
+	 [Job finished] jobname: mask_mni_tfm jobid: 149
+170930-23:28:27,779 workflow INFO:
+	 Executing: ds_bold_mask_mni ID: 150
+170930-23:28:27,781 workflow INFO:
+	 Executing node ds_bold_mask_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_derivatives_wf/ds_bold_mask_mni
+170930-23:28:27,810 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_mni jobid: 150
+170930-23:28:29,815 workflow INFO:
+	 Executing: bold_to_t1w_transform ID: 102
+170930-23:28:30,452 workflow INFO:
+	 Executing node bold_to_t1w_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/bold_to_t1w_transform
+170930-23:28:31,256 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/report.svg)
+170930-23:28:31,371 workflow INFO:
+	 [Job finished] jobname: flt_bbr jobid: 168
+170930-23:28:31,375 workflow INFO:
+	 Executing: invt_bbr ID: 170
+170930-23:28:31,379 workflow INFO:
+	 Executing node invt_bbr in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/invt_bbr
+170930-23:28:31,397 workflow INFO:
+	 Running: convert_xfm -omat /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -inverse /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat
+170930-23:28:31,677 workflow INFO:
+	 [Job finished] jobname: invt_bbr jobid: 170
+170930-23:28:31,681 workflow INFO:
+	 Executing: fsl2itk_inv ID: 171
+170930-23:28:31,697 workflow INFO:
+	 Executing node fsl2itk_inv in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_inv
+170930-23:28:31,726 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/invt_bbr/uni_masked_flirt_inv.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_inv/affine.txt
+170930-23:28:36,585 workflow INFO:
+	 [Job finished] jobname: fsl2itk_inv jobid: 171
+170930-23:28:36,590 workflow INFO:
+	 Executing: fsl2itk_fwd ID: 172
+170930-23:28:36,606 workflow INFO:
+	 Executing node fsl2itk_fwd in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_fwd
+170930-23:28:36,623 workflow INFO:
+	 Running: c3d_affine_tool -ref /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/skullstrip_ants_wf/t1_skull_strip/highres001_N4Corrected0.nii.gz -src /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/apply_mask/uni_masked.nii.gz /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/flt_bbr/uni_masked_flirt.mat -fsl2ras -oitk /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:37,711 workflow INFO:
+	 [Job finished] jobname: fsl2itk_fwd jobid: 172
+170930-23:28:37,718 workflow INFO:
+	 Executing: merge_xforms ID: 175
+170930-23:28:37,734 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/merge_xforms
+170930-23:28:37,774 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 175
+170930-23:28:39,782 workflow INFO:
+	 Executing: merge_xforms ID: 181
+170930-23:28:39,787 workflow INFO:
+	 Executing node merge_xforms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/merge_xforms
+170930-23:28:39,891 workflow INFO:
+	 [Job finished] jobname: merge_xforms jobid: 181
+170930-23:28:41,896 workflow INFO:
+	 Executing: mask_merge_tfms ID: 185
+170930-23:28:41,900 workflow INFO:
+	 Executing node mask_merge_tfms in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/mask_merge_tfms
+170930-23:28:41,969 workflow INFO:
+	 [Job finished] jobname: mask_merge_tfms jobid: 185
+170930-23:28:43,974 workflow INFO:
+	 Executing: ds_bold_reg_report ID: 188
+170930-23:28:43,978 workflow INFO:
+	 Executing node ds_bold_reg_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_bold_reg_report
+170930-23:28:44,98 workflow INFO:
+	 [Job finished] jobname: ds_bold_reg_report jobid: 188
+170930-23:28:46,104 workflow INFO:
+	 Executing: mask_t1w_tfm ID: 173
+170930-23:28:46,112 workflow INFO:
+	 Executing node mask_t1w_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/mask_t1w_tfm
+170930-23:28:46,131 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/gen_ref/highres001_BrainExtractionBrain_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:47,388 workflow INFO:
+	 [Job finished] jobname: mask_t1w_tfm jobid: 173
+170930-23:28:47,392 workflow INFO:
+	 Executing: ds_bold_mask_t1 ID: 174
+170930-23:28:47,394 workflow INFO:
+	 Executing node ds_bold_mask_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_derivatives_wf/ds_bold_mask_t1
+170930-23:28:47,489 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_t1 jobid: 174
+170930-23:28:49,494 workflow INFO:
+	 Executing: mask_mni_tfm ID: 186
+170930-23:28:49,502 workflow INFO:
+	 Executing node mask_mni_tfm in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/mask_mni_tfm
+170930-23:28:49,521 workflow INFO:
+	 Running: antsApplyTransforms --default-value 0 --float 1 --input /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reference_wf/enhance_and_skullstrip_bold_wf/combine_masks/ref_image_corrected_brain_mask_maths.nii.gz --interpolation NearestNeighbor --output ref_image_corrected_brain_mask_maths_trans.nii.gz --reference-image /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/gen_ref/1mm_T1_reference.nii.gz --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/anat_preproc_wf/t1_2_mni/ants_t1_to_mniComposite.h5 --transform /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl2itk_fwd/affine.txt
+170930-23:28:52,741 workflow INFO:
+	 [Job finished] jobname: mask_mni_tfm jobid: 186
+170930-23:28:52,746 workflow INFO:
+	 Executing: ds_bold_mask_mni ID: 187
+170930-23:28:52,748 workflow INFO:
+	 Executing node ds_bold_mask_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_derivatives_wf/ds_bold_mask_mni
+170930-23:28:52,847 workflow INFO:
+	 [Job finished] jobname: ds_bold_mask_mni jobid: 187
+170930-23:31:26,985 workflow INFO:
+	 [Job finished] jobname: bold_to_t1w_transform jobid: 102
+170930-23:31:26,990 workflow INFO:
+	 Executing: merge ID: 103
+170930-23:31:27,16 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/merge
+170930-23:31:27,12 workflow INFO:
+	 Executing: bold_to_mni_transform ID: 108
+170930-23:31:27,71 workflow INFO:
+	 Executing node bold_to_mni_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/bold_to_mni_transform
+170930-23:32:29,533 workflow INFO:
+	 [Job finished] jobname: merge jobid: 103
+170930-23:32:29,538 workflow INFO:
+	 Executing: ds_bold_t1 ID: 106
+170930-23:32:29,551 workflow INFO:
+	 Executing node ds_bold_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_derivatives_wf/ds_bold_t1
+170930-23:32:31,7 workflow INFO:
+	 [Job finished] jobname: ds_bold_t1 jobid: 106
+170930-23:32:33,12 workflow INFO:
+	 Executing: dvars ID: 104
+170930-23:32:33,21 workflow INFO:
+	 Executing node dvars in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/dvars
+170930-23:35:38,320 workflow INFO:
+	 [Job finished] jobname: dvars jobid: 104
+170930-23:36:43,930 workflow INFO:
+	 [Job finished] jobname: bold_to_mni_transform jobid: 108
+170930-23:36:43,937 workflow INFO:
+	 Executing: merge ID: 109
+170930-23:36:43,967 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_mni_trans_wf/merge
+170930-23:36:43,962 workflow INFO:
+	 Executing: bold_to_t1w_transform ID: 139
+170930-23:36:44,122 workflow INFO:
+	 Executing node bold_to_t1w_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/bold_to_t1w_transform
+170930-23:37:38,935 workflow INFO:
+	 [Job finished] jobname: merge jobid: 109
+170930-23:37:38,940 workflow INFO:
+	 Executing: ds_bold_mni ID: 110
+170930-23:37:38,943 workflow INFO:
+	 Executing node ds_bold_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_derivatives_wf/ds_bold_mni
+170930-23:37:42,539 workflow INFO:
+	 [Job finished] jobname: ds_bold_mni jobid: 110
+170930-23:39:52,380 workflow INFO:
+	 [Job finished] jobname: bold_to_t1w_transform jobid: 139
+170930-23:39:52,385 workflow INFO:
+	 Executing: merge ID: 140
+170930-23:39:52,418 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/merge
+170930-23:39:52,410 workflow INFO:
+	 Executing: bold_to_mni_transform ID: 145
+170930-23:39:52,472 workflow INFO:
+	 Executing node bold_to_mni_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/bold_to_mni_transform
+170930-23:41:03,674 workflow INFO:
+	 [Job finished] jobname: merge jobid: 140
+170930-23:41:03,679 workflow INFO:
+	 Executing: ds_bold_t1 ID: 143
+170930-23:41:03,685 workflow INFO:
+	 Executing node ds_bold_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_derivatives_wf/ds_bold_t1
+170930-23:41:05,31 workflow INFO:
+	 [Job finished] jobname: ds_bold_t1 jobid: 143
+170930-23:41:07,37 workflow INFO:
+	 Executing: dvars ID: 141
+170930-23:41:07,55 workflow INFO:
+	 Executing node dvars in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/dvars
+170930-23:44:12,739 workflow INFO:
+	 [Job finished] jobname: dvars jobid: 141
+170930-23:44:57,227 workflow INFO:
+	 [Job finished] jobname: bold_to_mni_transform jobid: 145
+170930-23:44:57,233 workflow INFO:
+	 Executing: merge ID: 146
+170930-23:44:57,268 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_mni_trans_wf/merge
+170930-23:44:57,263 workflow INFO:
+	 Executing: bold_to_t1w_transform ID: 176
+170930-23:44:58,245 workflow INFO:
+	 Executing node bold_to_t1w_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/bold_to_t1w_transform
+170930-23:45:42,77 workflow INFO:
+	 [Job finished] jobname: merge jobid: 146
+170930-23:45:42,82 workflow INFO:
+	 Executing: ds_bold_mni ID: 147
+170930-23:45:42,85 workflow INFO:
+	 Executing node ds_bold_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_derivatives_wf/ds_bold_mni
+170930-23:45:45,197 workflow INFO:
+	 [Job finished] jobname: ds_bold_mni jobid: 147
+170930-23:48:00,716 workflow INFO:
+	 [Job finished] jobname: bold_to_t1w_transform jobid: 176
+170930-23:48:00,720 workflow INFO:
+	 Executing: merge ID: 177
+170930-23:48:00,743 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/merge
+170930-23:48:00,740 workflow INFO:
+	 Executing: bold_to_mni_transform ID: 182
+170930-23:48:00,803 workflow INFO:
+	 Executing node bold_to_mni_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/bold_to_mni_transform
+170930-23:49:15,662 workflow INFO:
+	 [Job finished] jobname: merge jobid: 177
+170930-23:49:15,667 workflow INFO:
+	 Executing: ds_bold_t1 ID: 180
+170930-23:49:15,671 workflow INFO:
+	 Executing node ds_bold_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_derivatives_wf/ds_bold_t1
+170930-23:49:19,782 workflow INFO:
+	 [Job finished] jobname: ds_bold_t1 jobid: 180
+170930-23:49:21,787 workflow INFO:
+	 Executing: dvars ID: 178
+170930-23:49:21,799 workflow INFO:
+	 Executing node dvars in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/dvars
+170930-23:51:48,464 workflow INFO:
+	 [Job finished] jobname: dvars jobid: 178
+170930-23:53:04,247 workflow INFO:
+	 [Job finished] jobname: bold_to_mni_transform jobid: 182
+170930-23:53:04,253 workflow INFO:
+	 Executing: merge ID: 183
+170930-23:53:04,281 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_mni_trans_wf/merge
+170930-23:53:04,277 workflow INFO:
+	 Executing: bold_to_t1w_transform ID: 213
+170930-23:53:04,625 workflow INFO:
+	 Executing node bold_to_t1w_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/bold_to_t1w_transform
+170930-23:53:51,480 workflow INFO:
+	 [Job finished] jobname: merge jobid: 183
+170930-23:53:51,485 workflow INFO:
+	 Executing: ds_bold_mni ID: 184
+170930-23:53:51,492 workflow INFO:
+	 Executing node ds_bold_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_derivatives_wf/ds_bold_mni
+170930-23:53:55,731 workflow INFO:
+	 [Job finished] jobname: ds_bold_mni jobid: 184
+170930-23:58:33,246 workflow INFO:
+	 [Job finished] jobname: bold_to_t1w_transform jobid: 213
+170930-23:58:33,252 workflow INFO:
+	 Executing: bold_to_mni_transform ID: 219
+170930-23:58:33,296 workflow INFO:
+	 Executing node bold_to_mni_transform in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/bold_to_mni_transform
+170930-23:58:33,291 workflow INFO:
+	 Executing: merge ID: 214
+170930-23:58:33,373 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/merge
+171001-00:00:50,295 workflow INFO:
+	 [Job finished] jobname: merge jobid: 214
+171001-00:00:50,300 workflow INFO:
+	 Executing: ds_bold_t1 ID: 217
+171001-00:00:50,303 workflow INFO:
+	 Executing node ds_bold_t1 in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_derivatives_wf/ds_bold_t1
+171001-00:00:53,17 workflow INFO:
+	 [Job finished] jobname: ds_bold_t1 jobid: 217
+171001-00:00:55,22 workflow INFO:
+	 Executing: dvars ID: 215
+171001-00:00:55,39 workflow INFO:
+	 Executing node dvars in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/dvars
+171001-00:04:25,907 workflow INFO:
+	 [Job finished] jobname: dvars jobid: 215
+171001-00:04:25,912 workflow INFO:
+	 Executing: get_cost ID: 95
+171001-00:04:25,917 workflow INFO:
+	 Executing node get_cost in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/fsl_bbr_wf/get_cost
+171001-00:04:26,25 workflow INFO:
+	 [Job finished] jobname: get_cost jobid: 95
+171001-00:04:26,29 workflow INFO:
+	 Executing: non_steady_state ID: 105
+171001-00:04:26,34 workflow INFO:
+	 Executing node non_steady_state in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/non_steady_state
+171001-00:04:40,871 workflow INFO:
+	 [Job finished] jobname: non_steady_state jobid: 105
+171001-00:04:40,876 workflow INFO:
+	 Executing: csf_roi ID: 115
+171001-00:04:40,925 workflow INFO:
+	 Executing node csf_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/csf_roi
+171001-00:04:51,94 workflow INFO:
+	 [Job finished] jobname: csf_roi jobid: 115
+171001-00:04:51,99 workflow INFO:
+	 Executing: tcompcor ID: 116
+171001-00:04:51,107 workflow INFO:
+	 Executing node tcompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/tcompcor
+171001-00:05:06,565 niworkflows INFO:
+	 Generating report for tCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/tcompcor/mask_000.nii.gz"
+171001-00:06:33,243 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/tcompcor/report.html)
+171001-00:06:33,371 workflow INFO:
+	 [Job finished] jobname: tcompcor jobid: 116
+171001-00:06:33,378 workflow INFO:
+	 Executing: ds_tcompcor_report ID: 117
+171001-00:06:33,405 workflow INFO:
+	 Executing node ds_tcompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_tcompcor_report
+171001-00:06:33,515 workflow INFO:
+	 [Job finished] jobname: ds_tcompcor_report jobid: 117
+171001-00:06:35,520 workflow INFO:
+	 Executing: wm_roi ID: 118
+171001-00:06:35,544 workflow INFO:
+	 Executing node wm_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/wm_roi
+171001-00:06:47,294 workflow INFO:
+	 [Job finished] jobname: wm_roi jobid: 118
+171001-00:06:47,299 workflow INFO:
+	 Executing: merge_rois ID: 119
+171001-00:06:47,302 workflow INFO:
+	 Executing node merge_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/merge_rois
+171001-00:06:47,423 workflow INFO:
+	 [Job finished] jobname: merge_rois jobid: 119
+171001-00:06:49,428 workflow INFO:
+	 Executing: combine_rois ID: 120
+171001-00:06:49,434 workflow INFO:
+	 Executing node combine_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/combine_rois
+171001-00:06:50,348 workflow INFO:
+	 [Job finished] jobname: combine_rois jobid: 120
+171001-00:06:50,355 workflow INFO:
+	 Executing: acompcor ID: 121
+171001-00:06:50,389 workflow INFO:
+	 Executing node acompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/acompcor
+171001-00:07:05,330 niworkflows INFO:
+	 Generating report for aCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/combine_rois/logical_or.nii.gz"
+171001-00:07:54,986 workflow INFO:
+	 [Job finished] jobname: bold_to_mni_transform jobid: 219
+171001-00:07:54,991 workflow INFO:
+	 Executing: merge ID: 220
+171001-00:07:55,60 workflow INFO:
+	 Executing node merge in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_mni_trans_wf/merge
+171001-00:07:55,56 workflow INFO:
+	 Executing: concat_rois ID: 123
+171001-00:07:55,86 workflow INFO:
+	 Executing node concat_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/concat_rois
+171001-00:07:55,85 workflow INFO:
+	 Executing: get_cost ID: 132
+171001-00:07:55,95 workflow INFO:
+	 Executing node get_cost in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/fsl_bbr_wf/get_cost
+171001-00:07:55,93 workflow INFO:
+	 Executing: non_steady_state ID: 142
+171001-00:07:55,104 workflow INFO:
+	 Executing node non_steady_state in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/non_steady_state
+171001-00:07:55,102 workflow INFO:
+	 Executing: csf_roi ID: 152
+171001-00:07:55,172 workflow INFO:
+	 Executing node csf_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/csf_roi
+171001-00:07:55,195 workflow INFO:
+	 [Job finished] jobname: get_cost jobid: 132
+171001-00:07:55,199 workflow INFO:
+	 Executing: wm_roi ID: 155
+171001-00:07:55,229 workflow INFO:
+	 Executing node wm_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/wm_roi
+171001-00:07:56,261 workflow INFO:
+	 [Job finished] jobname: concat_rois jobid: 123
+171001-00:07:56,265 workflow INFO:
+	 Executing: signals ID: 124
+171001-00:07:56,285 workflow INFO:
+	 Executing node signals in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/signals
+171001-00:08:01,482 workflow INFO:
+	 [Job finished] jobname: csf_roi jobid: 152
+171001-00:08:01,487 workflow INFO:
+	 Executing: get_cost ID: 169
+171001-00:08:01,492 workflow INFO:
+	 Executing node get_cost in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/fsl_bbr_wf/get_cost
+171001-00:08:01,584 workflow INFO:
+	 [Job finished] jobname: get_cost jobid: 169
+171001-00:08:01,588 workflow INFO:
+	 Executing: non_steady_state ID: 179
+171001-00:08:01,592 workflow INFO:
+	 Executing node non_steady_state in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/non_steady_state
+171001-00:08:01,943 workflow INFO:
+	 [Job finished] jobname: wm_roi jobid: 155
+171001-00:08:01,947 workflow INFO:
+	 Executing: merge_rois ID: 156
+171001-00:08:01,950 workflow INFO:
+	 Executing node merge_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/merge_rois
+171001-00:08:02,6 workflow INFO:
+	 [Job finished] jobname: merge_rois jobid: 156
+171001-00:08:04,14 workflow INFO:
+	 Executing: combine_rois ID: 157
+171001-00:08:04,25 workflow INFO:
+	 Executing node combine_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/combine_rois
+171001-00:08:04,214 workflow INFO:
+	 [Job finished] jobname: combine_rois jobid: 157
+171001-00:08:04,218 workflow INFO:
+	 Executing: concat_rois ID: 160
+171001-00:08:04,226 workflow INFO:
+	 Executing node concat_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/concat_rois
+171001-00:08:04,227 workflow INFO:
+	 [Job finished] jobname: non_steady_state jobid: 142
+171001-00:08:04,242 workflow INFO:
+	 Executing: tcompcor ID: 153
+171001-00:08:04,261 workflow INFO:
+	 Executing node tcompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/tcompcor
+171001-00:08:06,925 workflow INFO:
+	 [Job finished] jobname: concat_rois jobid: 160
+171001-00:08:06,929 workflow INFO:
+	 Executing: acompcor ID: 158
+171001-00:08:06,939 workflow INFO:
+	 Executing node acompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/acompcor
+171001-00:08:08,270 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/acompcor/report.html)
+171001-00:08:08,306 workflow INFO:
+	 [Job finished] jobname: acompcor jobid: 121
+171001-00:08:08,311 workflow INFO:
+	 Executing: ds_acompcor_report ID: 122
+171001-00:08:08,313 workflow INFO:
+	 Executing node ds_acompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_acompcor_report
+171001-00:08:08,401 workflow INFO:
+	 [Job finished] jobname: ds_acompcor_report jobid: 122
+171001-00:08:10,406 workflow INFO:
+	 Executing: signals ID: 161
+171001-00:08:10,411 workflow INFO:
+	 Executing node signals in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/signals
+171001-00:08:10,932 workflow INFO:
+	 [Job finished] jobname: non_steady_state jobid: 179
+171001-00:08:10,937 workflow INFO:
+	 Executing: csf_roi ID: 189
+171001-00:08:10,953 workflow INFO:
+	 Executing node csf_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/csf_roi
+171001-00:08:14,976 niworkflows INFO:
+	 Generating report for tCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/tcompcor/mask_000.nii.gz"
+171001-00:08:16,725 workflow INFO:
+	 [Job finished] jobname: csf_roi jobid: 189
+171001-00:08:16,729 workflow INFO:
+	 Executing: tcompcor ID: 190
+171001-00:08:16,741 workflow INFO:
+	 Executing node tcompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/tcompcor
+171001-00:08:17,450 niworkflows INFO:
+	 Generating report for aCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/combine_rois/logical_or.nii.gz"
+171001-00:08:27,139 niworkflows INFO:
+	 Generating report for tCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/tcompcor/mask_000.nii.gz"
+171001-00:09:09,125 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/tcompcor/report.html)
+171001-00:09:09,172 workflow INFO:
+	 [Job finished] jobname: tcompcor jobid: 153
+171001-00:09:09,177 workflow INFO:
+	 Executing: ds_tcompcor_report ID: 154
+171001-00:09:09,180 workflow INFO:
+	 Executing node ds_tcompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_tcompcor_report
+171001-00:09:09,272 workflow INFO:
+	 [Job finished] jobname: ds_tcompcor_report jobid: 154
+171001-00:09:09,988 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/acompcor/report.html)
+171001-00:09:10,23 workflow INFO:
+	 [Job finished] jobname: acompcor jobid: 158
+171001-00:09:10,27 workflow INFO:
+	 Executing: ds_acompcor_report ID: 159
+171001-00:09:10,30 workflow INFO:
+	 Executing node ds_acompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_acompcor_report
+171001-00:09:10,95 workflow INFO:
+	 [Job finished] jobname: ds_acompcor_report jobid: 159
+171001-00:09:10,96 workflow INFO:
+	 Executing: wm_roi ID: 192
+171001-00:09:10,130 workflow INFO:
+	 Executing node wm_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/wm_roi
+171001-00:09:12,134 workflow INFO:
+	 Executing: non_steady_state ID: 216
+171001-00:09:12,138 workflow INFO:
+	 Executing node non_steady_state in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/non_steady_state
+171001-00:09:18,229 workflow INFO:
+	 [Job finished] jobname: wm_roi jobid: 192
+171001-00:09:18,234 workflow INFO:
+	 Executing: merge_rois ID: 193
+171001-00:09:18,237 workflow INFO:
+	 Executing node merge_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/merge_rois
+171001-00:09:18,305 workflow INFO:
+	 [Job finished] jobname: merge_rois jobid: 193
+171001-00:09:19,324 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/tcompcor/report.html)
+171001-00:09:19,362 workflow INFO:
+	 [Job finished] jobname: tcompcor jobid: 190
+171001-00:09:19,367 workflow INFO:
+	 Executing: ds_tcompcor_report ID: 191
+171001-00:09:19,370 workflow INFO:
+	 Executing node ds_tcompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_tcompcor_report
+171001-00:09:19,441 workflow INFO:
+	 [Job finished] jobname: ds_tcompcor_report jobid: 191
+171001-00:09:19,443 workflow INFO:
+	 Executing: combine_rois ID: 194
+171001-00:09:19,474 workflow INFO:
+	 Executing node combine_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/combine_rois
+171001-00:09:19,654 workflow INFO:
+	 [Job finished] jobname: combine_rois jobid: 194
+171001-00:09:19,658 workflow INFO:
+	 Executing: acompcor ID: 195
+171001-00:09:19,669 workflow INFO:
+	 Executing node acompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/acompcor
+171001-00:09:19,668 workflow INFO:
+	 Executing: concat_rois ID: 197
+171001-00:09:19,689 workflow INFO:
+	 Executing node concat_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/concat_rois
+171001-00:09:20,860 workflow INFO:
+	 [Job finished] jobname: concat_rois jobid: 197
+171001-00:09:20,864 workflow INFO:
+	 Executing: signals ID: 198
+171001-00:09:20,869 workflow INFO:
+	 Executing node signals in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/signals
+171001-00:09:28,828 workflow INFO:
+	 [Job finished] jobname: signals jobid: 124
+171001-00:09:28,833 workflow INFO:
+	 Executing: concat ID: 125
+171001-00:09:28,877 workflow INFO:
+	 Executing node concat in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/bold_confounds_wf/concat
+171001-00:09:29,596 workflow INFO:
+	 [Job finished] jobname: concat jobid: 125
+171001-00:09:30,605 niworkflows INFO:
+	 Generating report for aCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/combine_rois/logical_or.nii.gz"
+171001-00:09:30,688 workflow INFO:
+	 [Job finished] jobname: non_steady_state jobid: 216
+171001-00:09:30,692 workflow INFO:
+	 Executing: ds_confounds ID: 128
+171001-00:09:30,695 workflow INFO:
+	 Executing node ds_confounds in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_derivatives_wf/ds_confounds
+171001-00:09:30,759 workflow INFO:
+	 [Job finished] jobname: ds_confounds jobid: 128
+171001-00:09:30,761 workflow INFO:
+	 Executing: summary ID: 126
+171001-00:09:30,785 workflow INFO:
+	 Executing node summary in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/summary
+171001-00:09:31,308 workflow INFO:
+	 [Job finished] jobname: summary jobid: 126
+171001-00:09:31,312 workflow INFO:
+	 Executing: ds_summary_report ID: 127
+171001-00:09:31,314 workflow INFO:
+	 Executing node ds_summary_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_01_wf/func_reports_wf/ds_summary_report
+171001-00:09:31,402 workflow INFO:
+	 [Job finished] jobname: ds_summary_report jobid: 127
+171001-00:09:31,404 workflow INFO:
+	 Executing: csf_roi ID: 226
+171001-00:09:31,434 workflow INFO:
+	 Executing node csf_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/csf_roi
+171001-00:09:33,438 workflow INFO:
+	 Executing: wm_roi ID: 229
+171001-00:09:33,444 workflow INFO:
+	 Executing node wm_roi in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/wm_roi
+171001-00:09:36,409 workflow INFO:
+	 [Job finished] jobname: csf_roi jobid: 226
+171001-00:09:36,413 workflow INFO:
+	 Executing: tcompcor ID: 227
+171001-00:09:36,424 workflow INFO:
+	 Executing node tcompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/tcompcor
+171001-00:09:41,602 workflow INFO:
+	 [Job finished] jobname: wm_roi jobid: 229
+171001-00:09:41,607 workflow INFO:
+	 Executing: merge_rois ID: 230
+171001-00:09:41,610 workflow INFO:
+	 Executing node merge_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/merge_rois
+171001-00:09:41,664 workflow INFO:
+	 [Job finished] jobname: merge_rois jobid: 230
+171001-00:09:42,936 workflow INFO:
+	 [Job finished] jobname: signals jobid: 161
+171001-00:09:42,941 workflow INFO:
+	 Executing: concat ID: 162
+171001-00:09:42,968 workflow INFO:
+	 Executing node concat in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/bold_confounds_wf/concat
+171001-00:09:43,231 workflow INFO:
+	 [Job finished] jobname: concat jobid: 162
+171001-00:09:43,233 workflow INFO:
+	 Executing: combine_rois ID: 231
+171001-00:09:43,261 workflow INFO:
+	 Executing node combine_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/combine_rois
+171001-00:09:43,415 workflow INFO:
+	 [Job finished] jobname: combine_rois jobid: 231
+171001-00:09:43,419 workflow INFO:
+	 Executing: ds_confounds ID: 165
+171001-00:09:43,422 workflow INFO:
+	 Executing node ds_confounds in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_derivatives_wf/ds_confounds
+171001-00:09:43,477 workflow INFO:
+	 [Job finished] jobname: ds_confounds jobid: 165
+171001-00:09:43,479 workflow INFO:
+	 Executing: summary ID: 163
+171001-00:09:43,493 workflow INFO:
+	 Executing node summary in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/summary
+171001-00:09:43,527 workflow INFO:
+	 [Job finished] jobname: summary jobid: 163
+171001-00:09:43,531 workflow INFO:
+	 Executing: ds_summary_report ID: 164
+171001-00:09:43,548 workflow INFO:
+	 Executing node ds_summary_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_02_wf/func_reports_wf/ds_summary_report
+171001-00:09:43,599 workflow INFO:
+	 [Job finished] jobname: ds_summary_report jobid: 164
+171001-00:09:43,601 workflow INFO:
+	 Executing: acompcor ID: 232
+171001-00:09:43,619 workflow INFO:
+	 Executing node acompcor in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/acompcor
+171001-00:09:45,623 workflow INFO:
+	 Executing: concat_rois ID: 234
+171001-00:09:45,629 workflow INFO:
+	 Executing node concat_rois in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/concat_rois
+171001-00:09:46,515 workflow INFO:
+	 [Job finished] jobname: concat_rois jobid: 234
+171001-00:09:46,519 workflow INFO:
+	 Executing: signals ID: 235
+171001-00:09:46,530 workflow INFO:
+	 Executing node signals in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/signals
+171001-00:09:55,527 niworkflows INFO:
+	 Generating report for tCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/tcompcor/mask_000.nii.gz"
+171001-00:09:55,666 workflow INFO:
+	 [Job finished] jobname: merge jobid: 220
+171001-00:09:55,670 workflow INFO:
+	 Executing: ds_bold_mni ID: 221
+171001-00:09:55,673 workflow INFO:
+	 Executing node ds_bold_mni in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_derivatives_wf/ds_bold_mni
+171001-00:10:01,494 niworkflows INFO:
+	 Generating report for aCompCor. file "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_reg_wf/merge/vol0000_xform-00000_merged.nii.gz", mask "/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/combine_rois/logical_or.nii.gz"
+171001-00:10:01,606 workflow INFO:
+	 [Job finished] jobname: ds_bold_mni jobid: 221
+171001-00:10:18,725 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/acompcor/report.html)
+171001-00:10:18,755 workflow INFO:
+	 [Job finished] jobname: acompcor jobid: 195
+171001-00:10:18,760 workflow INFO:
+	 Executing: ds_acompcor_report ID: 196
+171001-00:10:18,763 workflow INFO:
+	 Executing node ds_acompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_acompcor_report
+171001-00:10:18,847 workflow INFO:
+	 [Job finished] jobname: ds_acompcor_report jobid: 196
+171001-00:10:39,716 workflow INFO:
+	 [Job finished] jobname: signals jobid: 198
+171001-00:10:39,721 workflow INFO:
+	 Executing: concat ID: 199
+171001-00:10:39,765 workflow INFO:
+	 Executing node concat in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/bold_confounds_wf/concat
+171001-00:10:39,977 workflow INFO:
+	 [Job finished] jobname: concat jobid: 199
+171001-00:10:40,557 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/tcompcor/report.html)
+171001-00:10:40,583 workflow INFO:
+	 [Job finished] jobname: tcompcor jobid: 227
+171001-00:10:40,588 workflow INFO:
+	 Executing: ds_confounds ID: 202
+171001-00:10:40,591 workflow INFO:
+	 Executing node ds_confounds in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_derivatives_wf/ds_confounds
+171001-00:10:40,630 workflow INFO:
+	 [Job finished] jobname: ds_confounds jobid: 202
+171001-00:10:40,632 workflow INFO:
+	 Executing: ds_tcompcor_report ID: 228
+171001-00:10:40,644 workflow INFO:
+	 Executing node ds_tcompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_tcompcor_report
+171001-00:10:40,692 workflow INFO:
+	 [Job finished] jobname: ds_tcompcor_report jobid: 228
+171001-00:10:40,693 workflow INFO:
+	 Executing: summary ID: 200
+171001-00:10:40,696 workflow INFO:
+	 Executing node summary in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/summary
+171001-00:10:40,732 workflow INFO:
+	 [Job finished] jobname: summary jobid: 200
+171001-00:10:40,737 workflow INFO:
+	 Executing: ds_summary_report ID: 201
+171001-00:10:40,739 workflow INFO:
+	 Executing node ds_summary_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_DistractWM_run_03_wf/func_reports_wf/ds_summary_report
+171001-00:10:40,777 workflow INFO:
+	 [Job finished] jobname: ds_summary_report jobid: 201
+171001-00:10:42,798 niworkflows INFO:
+	 Successfully created report (/home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/acompcor/report.html)
+171001-00:10:42,812 workflow INFO:
+	 [Job finished] jobname: acompcor jobid: 232
+171001-00:10:42,817 workflow INFO:
+	 Executing: ds_acompcor_report ID: 233
+171001-00:10:42,819 workflow INFO:
+	 Executing node ds_acompcor_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_acompcor_report
+171001-00:10:42,868 workflow INFO:
+	 [Job finished] jobname: ds_acompcor_report jobid: 233
+171001-00:10:58,749 workflow INFO:
+	 [Job finished] jobname: signals jobid: 235
+171001-00:10:58,760 workflow INFO:
+	 Executing: concat ID: 236
+171001-00:10:59,512 workflow INFO:
+	 Executing node concat in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/bold_confounds_wf/concat
+171001-00:10:59,790 workflow INFO:
+	 [Job finished] jobname: concat jobid: 236
+171001-00:10:59,799 workflow INFO:
+	 Executing: ds_confounds ID: 239
+171001-00:10:59,804 workflow INFO:
+	 Executing node ds_confounds in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_derivatives_wf/ds_confounds
+171001-00:10:59,859 workflow INFO:
+	 [Job finished] jobname: ds_confounds jobid: 239
+171001-00:10:59,862 workflow INFO:
+	 Executing: summary ID: 237
+171001-00:10:59,868 workflow INFO:
+	 Executing node summary in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/summary
+171001-00:10:59,988 workflow INFO:
+	 [Job finished] jobname: summary jobid: 237
+171001-00:10:59,999 workflow INFO:
+	 Executing: ds_summary_report ID: 238
+171001-00:11:00,3 workflow INFO:
+	 Executing node ds_summary_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_113_wf/func_preproc_task_rest_wf/func_reports_wf/ds_summary_report
+171001-00:11:00,49 workflow INFO:
+	 [Job finished] jobname: ds_summary_report jobid: 238
+FMRIPREP run attempt for 113 completed at Sun Oct  1 00:11:01 PDT 2017

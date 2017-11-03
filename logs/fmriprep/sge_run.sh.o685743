@@ -1,0 +1,1603 @@
+170930-18:25:52,834 duecredit ERROR:
+	 Failed to import duecredit due to No module named 'duecredit'
+170930-18:25:53,44 cli INFO:
+	 
+Running fMRIPREP version 0.6.5:
+  * Participant list: ['102'].
+  * Run identifier: 20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f.
+
+170930-18:25:54,24 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz".
+170930-18:25:54,503 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz.
+170930-18:25:54,956 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz".
+170930-18:25:55,368 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz.
+170930-18:25:55,814 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz".
+170930-18:25:56,227 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz.
+170930-18:25:56,760 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz".
+170930-18:25:57,160 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz.
+170930-18:25:57,608 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz".
+170930-18:25:58,27 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz.
+170930-18:25:58,474 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz".
+170930-18:25:58,876 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz.
+170930-18:25:59,324 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz".
+170930-18:25:59,827 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz.
+170930-18:26:00,275 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz".
+170930-18:26:00,678 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz.
+170930-18:26:01,188 workflow INFO:
+	 Creating bold processing workflow for "/home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz".
+170930-18:26:01,649 workflow WARNING:
+	 No fieldmaps found or they were ignored, building base workflow for dataset /home/despoB/DistractWM/data/raw/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz.
+170930-18:26:15,85 workflow INFO:
+	 Workflow fmriprep_wf settings: ['check', 'execution', 'logging']
+170930-18:26:15,582 workflow INFO:
+	 Running in parallel.
+170930-18:26:15,601 workflow INFO:
+	 Executing: validate ID: 0
+170930-18:26:15,653 workflow INFO:
+	 [Job finished] jobname: validate jobid: 0
+170930-18:26:15,658 workflow INFO:
+	 Executing: validate ID: 18
+170930-18:26:15,691 workflow INFO:
+	 [Job finished] jobname: validate jobid: 18
+170930-18:26:15,695 workflow INFO:
+	 Executing: validate ID: 36
+170930-18:26:15,745 workflow INFO:
+	 [Job finished] jobname: validate jobid: 36
+170930-18:26:15,749 workflow INFO:
+	 Executing: validate ID: 54
+170930-18:26:15,772 workflow INFO:
+	 [Job finished] jobname: validate jobid: 54
+170930-18:26:15,775 workflow INFO:
+	 Executing: validate ID: 72
+170930-18:26:15,813 workflow INFO:
+	 [Job finished] jobname: validate jobid: 72
+170930-18:26:15,816 workflow INFO:
+	 Executing: validate ID: 90
+170930-18:26:15,860 workflow INFO:
+	 [Job finished] jobname: validate jobid: 90
+170930-18:26:15,872 workflow INFO:
+	 Executing: ds_validation_report ID: 17
+170930-18:26:15,996 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,1 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182615-dlurie-ds_validation_report-60c1b88d-12a6-47f9-9339-90401f9c931e.txt
+170930-18:26:16,1 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:16,6 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,7 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-b63812e3-d07e-4b46-84d5-f9c8aead98c7.txt
+170930-18:26:16,7 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:16,11 workflow INFO:
+	 Executing: ds_validation_report ID: 35
+170930-18:26:16,49 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,50 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-7c9c73b6-8373-44de-b728-7d587beb4f7c.txt
+170930-18:26:16,50 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:16,54 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,55 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-e9845de8-4686-46c2-aa2b-6eb9536f877b.txt
+170930-18:26:16,55 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:16,58 workflow INFO:
+	 Executing: ds_validation_report ID: 53
+170930-18:26:16,92 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,92 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-362126b8-5287-4e1a-ba18-778b21c0bcad.txt
+170930-18:26:16,93 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:16,97 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,98 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-29d3816a-45a7-4f97-a697-cd0803ff573f.txt
+170930-18:26:16,98 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:16,101 workflow INFO:
+	 Executing: ds_validation_report ID: 71
+170930-18:26:16,159 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,159 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-935c6496-1fcf-44c0-954e-77618150efb8.txt
+170930-18:26:16,159 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:16,164 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,164 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-0ad54992-12e2-45d1-abb5-d4d473033847.txt
+170930-18:26:16,165 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:16,168 workflow INFO:
+	 Executing: ds_validation_report ID: 89
+170930-18:26:16,224 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,224 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-dd94f935-7144-4ba1-8436-93398cb8c3c4.txt
+170930-18:26:16,224 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:16,228 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,229 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-0e15cb27-b46e-4be4-8f87-27ce6d1dacc1.txt
+170930-18:26:16,229 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:16,233 workflow INFO:
+	 Executing: ds_validation_report ID: 107
+170930-18:26:16,276 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,276 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-69eb25bd-0c28-4268-9ee3-c525b237652a.txt
+170930-18:26:16,276 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:16,280 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,281 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-f1065a59-54f1-4db5-ada9-f071d9102573.txt
+170930-18:26:16,281 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:16,297 workflow INFO:
+	 Executing: validate ID: 108
+170930-18:26:16,331 workflow INFO:
+	 [Job finished] jobname: validate jobid: 108
+170930-18:26:16,334 workflow INFO:
+	 Executing: validate ID: 126
+170930-18:26:16,367 workflow INFO:
+	 [Job finished] jobname: validate jobid: 126
+170930-18:26:16,370 workflow INFO:
+	 Executing: validate ID: 144
+170930-18:26:16,395 workflow INFO:
+	 [Job finished] jobname: validate jobid: 144
+170930-18:26:16,398 workflow INFO:
+	 Executing: split ID: 101
+170930-18:26:16,442 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,443 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-abd2e7b5-dea4-4219-a18d-cd08ed42ffe6.txt
+170930-18:26:16,443 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:16,448 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,448 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-98c69411-e046-484e-bc49-220799918bd0.txt
+170930-18:26:16,449 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:16,452 workflow INFO:
+	 Executing: split ID: 83
+170930-18:26:16,493 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,494 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-f086c9f1-2d27-48f9-9dd9-45e64c86f17b.txt
+170930-18:26:16,494 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:16,499 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,500 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-0b2806f4-6cbb-47b3-a6ad-cfa18cd1de4c.txt
+170930-18:26:16,500 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:16,503 workflow INFO:
+	 Executing: split ID: 29
+170930-18:26:16,540 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,540 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-7c195ee3-847a-4976-b193-fceeb0955998.txt
+170930-18:26:16,540 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:16,545 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,546 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-b5a014f3-bbd6-40eb-baa2-34803e689d9d.txt
+170930-18:26:16,546 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:16,560 workflow INFO:
+	 Executing: ds_validation_report ID: 125
+170930-18:26:16,624 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,624 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-bac80a1c-2998-4438-b811-34b643266b36.txt
+170930-18:26:16,625 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:16,629 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,629 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-240cbdf7-4531-46fa-b076-4faf530c566a.txt
+170930-18:26:16,630 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:16,633 workflow INFO:
+	 Executing: ds_validation_report ID: 143
+170930-18:26:16,666 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,666 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-7e381ebb-60b7-4ffc-b213-1c43fd3d4011.txt
+170930-18:26:16,667 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:16,671 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,672 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-2c392d7d-d21f-423d-8a8e-463470ef7d35.txt
+170930-18:26:16,672 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:16,675 workflow INFO:
+	 Executing: ds_validation_report ID: 161
+170930-18:26:16,706 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,706 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-7ee2fbcc-07c2-4014-9fcf-7288c4fca172.txt
+170930-18:26:16,707 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:16,711 workflow ERROR:
+	 ['Node ds_validation_report failed to run on host nx18.priv.']
+170930-18:26:16,712 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-ds_validation_report-c9a7a7e6-0d59-47b8-be89-0ae89b4e0ad7.txt
+170930-18:26:16,712 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:16,715 workflow INFO:
+	 Executing: split ID: 155
+170930-18:26:16,746 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,747 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-0aca4139-01a4-4a4f-9bd7-3232838979a9.txt
+170930-18:26:16,747 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:16,752 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,752 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-0f4b01fa-f9d7-4d0a-b201-8b0c455cdced.txt
+170930-18:26:16,753 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:16,758 workflow INFO:
+	 Executing: split ID: 119
+170930-18:26:16,791 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,791 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-3c970a30-b3ef-49ba-8737-54a4faf6dbfd.txt
+170930-18:26:16,792 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:16,796 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,797 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-f41f4998-7fc0-4e92-8ae9-c7eb5a2fda0d.txt
+170930-18:26:16,797 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:16,801 workflow INFO:
+	 Executing: split ID: 137
+170930-18:26:16,904 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,905 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-754ef736-df6e-48e6-97ae-217afea2b738.txt
+170930-18:26:16,905 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:16,910 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,911 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-8bec2d54-9f19-4362-9ef1-cf01d4c0a7c9.txt
+170930-18:26:16,911 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:16,926 workflow INFO:
+	 Executing: split ID: 65
+170930-18:26:16,957 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,958 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-ba82f31f-9699-4653-af02-3cb7312333aa.txt
+170930-18:26:16,958 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:16,963 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:16,963 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182616-dlurie-split-2230ce2c-014e-446d-8e6f-83adf512aab6.txt
+170930-18:26:16,963 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:16,967 workflow INFO:
+	 Executing: split ID: 47
+170930-18:26:17,1 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:17,1 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-split-8d807a4f-f92a-4b20-a382-154eb8ac5b7b.txt
+170930-18:26:17,1 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:17,6 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:17,7 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-split-f804c03b-3311-4a33-9676-ae8247676be6.txt
+170930-18:26:17,7 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:17,11 workflow INFO:
+	 Executing: split ID: 11
+170930-18:26:17,75 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:17,76 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-split-28f538ca-297c-46da-8422-bcf8a028d9e0.txt
+170930-18:26:17,76 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:17,81 workflow ERROR:
+	 ['Node split failed to run on host nx18.priv.']
+170930-18:26:17,81 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-split-ca0f83e0-8c0f-4639-84e6-5c2a7d089c8a.txt
+170930-18:26:17,81 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:17,85 workflow INFO:
+	 Executing: about ID: 162
+170930-18:26:17,143 workflow INFO:
+	 Executing node about in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/about
+170930-18:26:17,206 workflow INFO:
+	 [Job finished] jobname: about jobid: 162
+170930-18:26:17,209 workflow INFO:
+	 Executing: bidssrc ID: 163
+170930-18:26:17,213 workflow INFO:
+	 [Job finished] jobname: bidssrc jobid: 163
+170930-18:26:17,217 workflow INFO:
+	 Executing: gen_ref ID: 1
+170930-18:26:17,251 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,252 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-325c5385-8353-480c-b928-8758c7ad8913.txt
+170930-18:26:17,252 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:17,256 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,257 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-62286700-d83b-4642-b8c7-95013ab0200f.txt
+170930-18:26:17,257 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-rest_bold.nii.gz' does not exist.
+
+170930-18:26:17,271 workflow INFO:
+	 Executing: bids_info ID: 164
+170930-18:26:17,306 workflow INFO:
+	 Executing node bids_info in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/bids_info
+170930-18:26:17,356 workflow INFO:
+	 [Job finished] jobname: bids_info jobid: 164
+170930-18:26:17,360 workflow INFO:
+	 Executing: ds_about_report ID: 167
+170930-18:26:17,401 workflow INFO:
+	 Executing node ds_about_report in dir: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/ds_about_report
+170930-18:26:17,500 workflow INFO:
+	 [Job finished] jobname: ds_about_report jobid: 167
+170930-18:26:17,503 workflow INFO:
+	 Executing: t1_template_dimensions ID: 168
+170930-18:26:17,699 workflow ERROR:
+	 ['Node t1_template_dimensions failed to run on host nx18.priv.']
+170930-18:26:17,699 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-t1_template_dimensions-399f8289-5a91-4508-a2d9-efe7147f66a8.txt
+170930-18:26:17,699 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 467, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 223, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/base.py", line 2083, in validate
+    value = super(MultiPath, self).validate(object, name, newvalue)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 't1w_list' of a TemplateDimensionsInputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz' does not exist.
+Error setting node input:
+Node: t1_template_dimensions
+input: t1w_list
+results_file: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/bidssrc/result_bidssrc.pklz
+value: /home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz
+
+170930-18:26:17,713 workflow ERROR:
+	 ['Node t1_template_dimensions failed to run on host nx18.priv.']
+170930-18:26:17,714 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-t1_template_dimensions-c18ca845-db51-486f-bd28-b41872adb37a.txt
+170930-18:26:17,714 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 467, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 223, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/base.py", line 2083, in validate
+    value = super(MultiPath, self).validate(object, name, newvalue)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 't1w_list' of a TemplateDimensionsInputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz' does not exist.
+Error setting node input:
+Node: t1_template_dimensions
+input: t1w_list
+results_file: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/bidssrc/result_bidssrc.pklz
+value: /home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz
+
+170930-18:26:17,726 workflow INFO:
+	 Executing: gen_ref ID: 19
+170930-18:26:17,745 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,745 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-0933d1b4-41b1-4e33-b95f-139b626ee552.txt
+170930-18:26:17,745 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:17,750 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,750 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-f708e4d8-8fb5-4d1d-9fee-12a4b5d04a9f.txt
+170930-18:26:17,751 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-08_bold.nii.gz' does not exist.
+
+170930-18:26:17,755 workflow INFO:
+	 Executing: gen_ref ID: 37
+170930-18:26:17,818 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,818 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-01f390cc-03c8-4099-9e61-9e081126374b.txt
+170930-18:26:17,818 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:17,822 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,823 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-9d87a34f-350b-40e4-a116-a252f2d03fd6.txt
+170930-18:26:17,823 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-07_bold.nii.gz' does not exist.
+
+170930-18:26:17,828 workflow INFO:
+	 Executing: gen_ref ID: 55
+170930-18:26:17,877 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,877 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-85bdfe7c-63fe-49ce-b90c-d64edcdd27c0.txt
+170930-18:26:17,877 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:17,881 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,882 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-17f81f0e-201f-4d64-bf17-b0714142aba3.txt
+170930-18:26:17,882 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-06_bold.nii.gz' does not exist.
+
+170930-18:26:17,899 workflow INFO:
+	 Executing: summary ID: 165
+170930-18:26:17,943 workflow ERROR:
+	 ['Node summary failed to run on host nx18.priv.']
+170930-18:26:17,943 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-summary-ebaf285e-88de-47a6-89cb-960f99cfe928.txt
+170930-18:26:17,943 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 467, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 223, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/base.py", line 2083, in validate
+    value = super(MultiPath, self).validate(object, name, newvalue)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 't1w' of a SubjectSummaryInputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz' does not exist.
+Error setting node input:
+Node: summary
+input: t1w
+results_file: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/bidssrc/result_bidssrc.pklz
+value: /home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz
+
+170930-18:26:17,947 workflow ERROR:
+	 ['Node summary failed to run on host nx18.priv.']
+170930-18:26:17,948 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-summary-148f0816-9b4d-48e6-979a-5eaa78a9287f.txt
+170930-18:26:17,948 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 467, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 223, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/base.py", line 2083, in validate
+    value = super(MultiPath, self).validate(object, name, newvalue)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 't1w' of a SubjectSummaryInputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz' does not exist.
+Error setting node input:
+Node: summary
+input: t1w
+results_file: /home/despoB/DistractWM/data/derivatives/fmriprep/work/fmriprep_wf/single_subject_102_wf/bidssrc/result_bidssrc.pklz
+value: /home/despoB/DistractWM/data/BIDS/sub-102/anat/sub-102_T1w.nii.gz
+
+170930-18:26:17,951 workflow INFO:
+	 Executing: gen_ref ID: 73
+170930-18:26:17,984 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,984 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-a6e3b435-dab4-413a-ac3a-e4db81190b17.txt
+170930-18:26:17,984 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:17,989 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:17,990 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182617-dlurie-gen_ref-f3f25dee-661c-47ba-90a3-fb6ac923005c.txt
+170930-18:26:17,990 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-05_bold.nii.gz' does not exist.
+
+170930-18:26:17,994 workflow INFO:
+	 Executing: gen_ref ID: 91
+170930-18:26:18,24 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,24 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-7130097f-0d9a-4245-9577-100e480f6d63.txt
+170930-18:26:18,24 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:18,29 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,29 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-392c19b1-a5b8-4293-b450-916d402da2ba.txt
+170930-18:26:18,29 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-04_bold.nii.gz' does not exist.
+
+170930-18:26:18,34 workflow INFO:
+	 Executing: gen_ref ID: 109
+170930-18:26:18,74 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,74 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-fd088766-502e-4e2d-94eb-a8827a21f21d.txt
+170930-18:26:18,74 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:18,79 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,79 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-5f9959f0-7922-4184-9434-cb0ccf731dff.txt
+170930-18:26:18,79 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-03_bold.nii.gz' does not exist.
+
+170930-18:26:18,83 workflow INFO:
+	 Executing: gen_ref ID: 127
+170930-18:26:18,119 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,119 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-5739638a-f743-486f-b927-f16727f34387.txt
+170930-18:26:18,120 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:18,124 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,124 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-57910227-1f80-45a8-9b28-fe9c0fa32ffd.txt
+170930-18:26:18,125 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-02_bold.nii.gz' does not exist.
+
+170930-18:26:18,129 workflow INFO:
+	 Executing: gen_ref ID: 145
+170930-18:26:18,164 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,165 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-e7b26cbf-ff02-4f3e-b738-ee5599e07b58.txt
+170930-18:26:18,165 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:18,169 workflow ERROR:
+	 ['Node gen_ref failed to run on host nx18.priv.']
+170930-18:26:18,170 workflow INFO:
+	 Saving crash info to /home/despoB/DistractWM/data/derivatives/fmriprep/out/fmriprep/sub-102/log/20170930-182553_63ff9af2-cbaa-4198-b1bf-0f34ea9d591f/crash-20170930-182618-dlurie-gen_ref-08f13ce9-157d-4857-8b77-124078a28fe3.txt
+170930-18:26:18,170 workflow INFO:
+	 Traceback (most recent call last):
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/plugins/multiproc.py", line 301, in _send_procs_to_workers
+    jobid].hash_exists()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 244, in hash_exists
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 407, in _get_hashval
+    self._get_inputs()
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/pipeline/engine/nodes.py", line 450, in _get_inputs
+    results = loadpkl(results_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/utils/filemanip.py", line 581, in loadpkl
+    unpkl = pickle.load(pkl_file)
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1440, in __setstate__
+    self.trait_set( trait_change_notify = trait_change_notify, **state )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/traits/has_traits.py", line 1543, in trait_set
+    setattr( self, name, value )
+  File "/home/despoB/dlurie/anaconda3/envs/fmriprep/lib/python3.6/site-packages/niworkflows/nipype/interfaces/traits_extension.py", line 92, in validate
+    self.info_text, value))
+traits.trait_errors.TraitError: The trait 'out_file' of a ValidateImageOutputSpec instance is an existing file name, but the path  '/home/despoB/DistractWM/data/BIDS/sub-102/func/sub-102_task-DistractWM_run-01_bold.nii.gz' does not exist.
+
+170930-18:26:23,525 cli WARNING:
+	 Errors occurred while generating reports for participants: 102 (58).
+FMRIPREP run attempt for 102 completed at Sat Sep 30 18:26:24 PDT 2017

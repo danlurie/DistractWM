@@ -9,7 +9,7 @@ fmriprep \
     participant \
     --participant_label $SUB_ID \
     --nthreads 6 \
-    --mem_mb 8192 \
+    --mem_mb 10240 \
     --ignore slicetiming \
     --output-space T1w template \
     --no-freesurfer \
