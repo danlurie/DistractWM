@@ -37,7 +37,7 @@ thresh = 'None'
 gamma = 1.0
 
 # Loop through subjects.
-for sub_id in subject_list[0:1]:
+for sub_id in subject_list:
     if sub_id not in skip_list:
         try:
             print("Subject {0}...".format(sub_id))
